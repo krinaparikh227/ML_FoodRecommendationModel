@@ -1,0 +1,99 @@
+{
+    "total_interactions": 1401982,
+    "unique_users": 271907,
+    "unique_recipes_in_reviews": 271678,
+    "total_recipes": 522517,
+    "rating_distribution": {
+        "0": 76248,
+        "1": 16559,
+        "2": 17597,
+        "3": 50279,
+        "4": 229217,
+        "5": 1012082
+    },
+    "missing_reviews": {
+        "ReviewId": 0,
+        "RecipeId": 0,
+        "AuthorId": 0,
+        "AuthorName": 0,
+        "Rating": 0,
+        "Review": 214,
+        "DateSubmitted": 0,
+        "DateModified": 0
+    },
+    "missing_recipes": {
+        "RecipeId": 0,
+        "Name": 0,
+        "AuthorId": 0,
+        "AuthorName": 0,
+        "CookTime": 82545,
+        "PrepTime": 0,
+        "TotalTime": 0,
+        "DatePublished": 0,
+        "Description": 5,
+        "Images": 1,
+        "RecipeCategory": 751,
+        "Keywords": 17237,
+        "RecipeIngredientQuantities": 3,
+        "RecipeIngredientParts": 0,
+        "AggregatedRating": 253223,
+        "ReviewCount": 247489,
+        "Calories": 0,
+        "FatContent": 0,
+        "SaturatedFatContent": 0,
+        "CholesterolContent": 0,
+        "SodiumContent": 0,
+        "CarbohydrateContent": 0,
+        "FiberContent": 0,
+        "SugarContent": 0,
+        "ProteinContent": 0,
+        "RecipeServings": 182911,
+        "RecipeYield": 348071,
+        "RecipeInstructions": 0
+    },
+    "nutrition_nulls": {
+        "Calories": 0,
+        "FatContent": 0,
+        "SaturatedFatContent": 0,
+        "CholesterolContent": 0,
+        "SodiumContent": 0,
+        "CarbohydrateContent": 0,
+        "FiberContent": 0,
+        "SugarContent": 0,
+        "ProteinContent": 0
+    },
+    "top_recipe_names": [
+        {
+            "RecipeId": 2886,
+            "Name": "Best Banana Bread"
+        },
+        {
+            "RecipeId": 27208,
+            "Name": "To Die for Crock Pot Roast"
+        },
+        {
+            "RecipeId": 39087,
+            "Name": "Creamy Cajun Chicken Pasta"
+        },
+        {
+            "RecipeId": 45809,
+            "Name": "Bourbon Chicken"
+        },
+        {
+            "RecipeId": 89204,
+            "Name": "Crock-Pot Chicken With Black Beans &amp; Cream Cheese"
+        }
+    ],
+    "top_categories": {
+        "Dessert": 62072,
+        "Lunch/Snacks": 32586,
+        "One Dish Meal": 31345,
+        "Vegetable": 27231,
+        "Breakfast": 21101,
+        "Beverages": 16076,
+        "Chicken": 13249,
+        "Meat": 13131,
+        "Breads": 12804,
+        "Pork": 12603
+    }
+}

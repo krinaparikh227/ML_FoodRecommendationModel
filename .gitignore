@@ -1,0 +1,17 @@
+# Ignore large data directories
+data/
+
+# Ignore zip archives
+*.zip
+
+# Ignore dataset files
+*.csv
+*.parquet
+
+# Ignore python caches and system files
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
+.idea/
+desktop.ini
