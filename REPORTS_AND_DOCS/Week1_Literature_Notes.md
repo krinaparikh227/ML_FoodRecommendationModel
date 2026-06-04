@@ -2,7 +2,7 @@
 
 **Course:** summer Internship Research Program  
 **Topic:** Health-Aware and Explainable Food Recommendation Systems Using Retrieval-Augmented LLMs  
-**Lead:** Student 1 - Data + Sequential Recommendation Lead  
+**Role:** Data + Preprocessing Lead  
 **Context:** Foundational Week 1 Deliverables for the GroundedNutriRec system architecture  
 
 ---
