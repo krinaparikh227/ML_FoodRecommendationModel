@@ -1,12 +1,10 @@
-# Ignore large data directories
-data/
+# Ignore large dataset directories (kept local only, not tracked by Git)
+DATA/RAW/
+DATA/SAMPLE/
+DATA/PROCESSED/
 
 # Ignore zip archives
 *.zip
-
-# Ignore dataset files
-*.csv
-*.parquet
 
 # Ignore python caches and system files
 __pycache__/
