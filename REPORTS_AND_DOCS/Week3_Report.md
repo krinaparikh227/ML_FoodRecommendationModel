@@ -140,7 +140,7 @@ Sparse similarity matrix contains 1,723,472 non-zero entries. Recommendations we
 
 **Screenshot — User-Item Matrix Construction and Cosine CF Generation:**
 
-![User-Item Matrix and Cosine CF](../RESULTS/WEEK 03/07_08/Screenshot 2026-06-19 235130.png)
+![User-Item Matrix and Cosine CF KNN Recommendation Generation](../RESULTS/WEEK 03/07/07_user_based_knn_cf.png)
 
 ### 4.3 Matrix Factorization: Surprise SVD
 
@@ -160,7 +160,7 @@ Training configuration: 64 factors, 15 iterations, regularization = 0.05. Recomm
 
 **Screenshot — Implicit ALS Training and Recommendation Generation:**
 
-![Implicit ALS Training](../RESULTS/WEEK 03/07_08/Screenshot 2026-06-19 235238.png)
+![Implicit ALS Model Training and Recommendation Generation](../RESULTS/WEEK 03/07/07_implicit_als_collaborative_filtering.png)
 
 ---
 
@@ -187,7 +187,11 @@ The following table presents the comparative metrics requested by the internship
 
 **Screenshot — Notebook 08 Final Results Table Output:**
 
-![Final Results Table](../RESULTS/WEEK 03/07_08/Screenshot 2026-06-19 235302.png)
+![Final Baseline Comparison Results Table](../RESULTS/WEEK 03/08/08_baseline_comparison_results_table.png)
+
+**Screenshot — Baseline Performance Comparison Chart:**
+
+![Baseline Performance Comparison Chart](../RESULTS/WEEK 03/08/08_baseline_performance_comparison_chart.png)
 
 Key findings from the comparative evaluation:
 - **Collaborative Filtering (Cosine KNN)** achieves the highest Precision@5 (0.009822) and NDCG@10 (0.016536), demonstrating that neighborhood-based preference propagation is highly effective for explicit user ratings.
