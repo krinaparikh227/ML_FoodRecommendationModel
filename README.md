@@ -24,22 +24,32 @@ The repository uses a fully capitalized naming structure for directory organizat
 GroundedNutriRec/
 │
 ├── APP/                    # Streamlit web application files
-├── DATA/                   # Ignored dataset directories
+├── DATA/                   # Local-only dataset directories (not tracked by Git)
 │   ├── RAW/                # Raw datasets (Food.com, RecipeNLG)
 │   ├── PROCESSED/          # Preprocessed data and train-test splits
 │   └── SAMPLE/             # 20k development samples for prototyping
-├── DATASETS/               # Zip archives containing raw dataset sources
 ├── NOTEBOOKS/              # Jupyter notebooks for weekly tasks
+│   ├── 01_DATASET_LOADING.ipynb       # Week 1: Schema validation and sampling
+│   ├── 02_FOOD_DATASET_EDA.ipynb      # Week 1: Exploratory data analysis
+│   ├── 03_DATA_PREPROCESSING.ipynb    # Week 2: K-core filtering and split generation
+│   └── 04_FEATURE_ENGINEERING.ipynb   # Week 2: WHO health score and categorical features
 ├── REPORTS_AND_DOCS/       # Academic literature notes and report documents
+│   ├── Week1_Report.pdf    # Week 1 technical report (PDF)
+│   ├── Week1_Report.docx   # Week 1 technical report (Word)
+│   ├── Week1_Report.md     # Week 1 technical report (Markdown)
+│   ├── Week01_Notes.pdf    # Week 1 lecture notes
+│   ├── Week2_Report.pdf    # Week 2 technical report (PDF)
+│   └── Week2_Report.md     # Week 2 technical report (Markdown)
 ├── RESULTS/                # Output artifacts and tables
-│   ├── FIGURES/            # Distribution plots and charts
-│   └── TABLES/             # Baseline performance evaluation metrics
+│   ├── FIGURES/            # Distribution plots and charts (Week 1 EDA + Week 2 features)
+│   ├── TABLES/             # Baseline performance evaluation metrics
+│   └── WEEK 1/             # Screenshots from Week 1 EDA outputs
 ├── SRC/                    # Source code package
 │   ├── EVALUATION/         # Metrics (Precision@K, NDCG@K, MRR@K)
 │   ├── RAG/                # FAISS indexing and explanation prompt logic
 │   ├── RECOMMENDERS/       # Collaborative filtering and sequential baselines
 │   ├── __init__.py         # Package initialization
-│   ├── data_preprocessing.py # Shared loading and data parsing scripts
+│   ├── data_preprocessing.py # Shared preprocessing: k-core, splits, feature engineering
 │   └── utils.py            # Logger and path configuration helpers
 ├── requirements.txt        # Python dependencies
 └── README.md               # Repository documentation
@@ -51,18 +61,66 @@ GroundedNutriRec/
 
 The project is structured into a 6-week summer program to progress from dataset understanding to integrated prototype verification:
 
-| Week | Goal | Deliverables |
-| --- | --- | --- |
-| **Week 1** | Foundation & Dataset Exploration | Literature notes, schema validations, and sampling (`01_DATASET_LOADING.ipynb`) |
-| **Week 2** | Preprocessing & Feature Engineering | Normalization, implicit mapping, splits, and nutrient level calculations (`03_data_preprocessing.ipynb`, `04_feature_engineering.ipynb`) |
-| **Week 3** | Baselines & Evaluation Metrics | Matrix factorization, similarity recommenders, and ranking metrics (`05_popularity_recommender.ipynb`, `06_content_based_recommender.ipynb`, `07_collaborative_filtering.ipynb`, `08_evaluation_metrics.ipynb`) |
-| **Week 4** | Health-Aware & Multi-Objective Ranking | Food health scores, multi-objective ranking functions, and ablation weights (`09_health_score_generation.ipynb`, `10_multi_objective_ranking.ipynb`, `11_ablation_weight_analysis.ipynb`, `21_pareto_ranking.ipynb`) |
-| **Week 5** | LLM/RAG & Faithfulness Check | Vector index pipelines, explanation generation, NLI claim verification (`12_food_knowledge_base_creation.ipynb`, `13_vector_search_rag.ipynb`, `14_llm_explanation_generation.ipynb`, `18_claim_extraction.ipynb`, `19_faithfulness_verification.ipynb`, `20_hallucination_analysis.ipynb`) |
-| **Week 6** | System Integration & Demos | Sequential model implementations, offline A/B testing simulator, Streamlit interface, and final report (`app/streamlit_app.py`, `16_sequential_recommender_gru.ipynb`, `17_transformer_based_recommender.ipynb`, `23_ab_testing_simulator.ipynb`) |
+| Week | Goal | Status | Deliverables |
+| --- | --- | --- | --- |
+| **Week 1** | Foundation and Dataset Exploration | **Complete** | Literature notes, schema validations, EDA plots, and sampling (`01_DATASET_LOADING.ipynb`, `02_FOOD_DATASET_EDA.ipynb`) |
+| **Week 2** | Preprocessing and Feature Engineering | **Complete** | K-core filtering, implicit labels, temporal splits, WHO health score, categorical levels (`03_DATA_PREPROCESSING.ipynb`, `04_FEATURE_ENGINEERING.ipynb`) |
+| **Week 3** | Baselines and Evaluation Metrics | Planned | Matrix factorization, similarity recommenders, and ranking metrics (`05_popularity_recommender.ipynb`, `06_content_based_recommender.ipynb`, `07_collaborative_filtering.ipynb`, `08_evaluation_metrics.ipynb`) |
+| **Week 4** | Health-Aware and Multi-Objective Ranking | Planned | Food health scores, multi-objective ranking functions, and ablation weights (`09_health_score_generation.ipynb`, `10_multi_objective_ranking.ipynb`, `11_ablation_weight_analysis.ipynb`, `21_pareto_ranking.ipynb`) |
+| **Week 5** | LLM/RAG and Faithfulness Check | Planned | Vector index pipelines, explanation generation, NLI claim verification (`12_food_knowledge_base_creation.ipynb`, `13_vector_search_rag.ipynb`, `14_llm_explanation_generation.ipynb`, `18_claim_extraction.ipynb`, `19_faithfulness_verification.ipynb`, `20_hallucination_analysis.ipynb`) |
+| **Week 6** | System Integration and Demos | Planned | Sequential model implementations, offline A/B testing simulator, Streamlit interface, and final report (`app/streamlit_app.py`, `16_sequential_recommender_gru.ipynb`, `17_transformer_based_recommender.ipynb`, `23_ab_testing_simulator.ipynb`) |
 
 ---
 
-## 4. Team Core Contributions
+## 4. Current Progress
+
+### Week 1 — Foundation and Dataset Exploration (Complete)
+
+- Validated schema integrity across the Food.com Recipes and Reviews datasets and the RecipeNLG corpus.
+- Identified and documented dataset structure: 231,637 unique recipes, 1,132,367 interaction records, 226,570 unique users.
+- Generated reproducible 20k development samples saved to `DATA/SAMPLE/`.
+- Produced EDA visualizations covering rating distributions, temporal patterns, ingredient frequency, tag distributions, nutritional correlations, and user activity profiles (saved to `RESULTS/FIGURES/`).
+- Authored Week 1 technical report and lecture notes (`REPORTS_AND_DOCS/`).
+
+### Week 2 — Preprocessing and Feature Engineering (Complete)
+
+**Preprocessing Pipeline (`SRC/data_preprocessing.py`, `NOTEBOOKS/03_DATA_PREPROCESSING.ipynb`)**
+
+- Removed duplicate interactions by retaining the most recent review per user-recipe pair to prevent data leakage.
+- Mapped explicit ratings (0–5 scale) to implicit binary feedback labels (`liked = 1` for ratings 4–5, `liked = 0` for ratings 1–3, `liked = NaN` for rating 0).
+- Applied iterative 5-core filtering on the user-item bipartite interaction graph until convergence:
+  - Raw sparsity: **99.99784%** → Post-filter sparsity: **99.92437%**
+  - Retained: **17,813 users**, **41,240 recipes**, **555,618 interactions**
+- Applied temporal user-wise 80:20 split (chronological, per-user) to prevent future-leakage:
+  - `train_interactions.csv`: **437,558 interactions**
+  - `test_interactions.csv`: **118,060 interactions**
+  - Zero overlap between splits; every user has at least 4 training interactions guaranteed by the 5-core filter.
+
+**Feature Engineering (`NOTEBOOKS/04_FEATURE_ENGINEERING.ipynb`)**
+
+Engineered six health-aware features for **40,968 recipes** (post outlier removal):
+
+| Feature | Description |
+| --- | --- |
+| `calorie_level` | Categorical: Low (<300 kcal), Medium (300–600 kcal), High (>600 kcal) |
+| `protein_level` | Categorical: Low (<5g), Medium (5–15g), High (>15g) |
+| `fat_level` | Categorical: Low (<10g), Medium (10–25g), High (>25g) |
+| `ingredient_count` | Integer count of ingredients per recipe |
+| `preparation_complexity` | Low (≤30 min AND ≤5 steps), High (>60 min OR >12 steps), Medium otherwise |
+| `health_score` | Continuous score [0.0–10.0] derived from WHO dietary density guidelines across 5 macronutrient components |
+
+WHO Health Score components (each capped at 2.0 points, total = 10.0):
+1. Saturated fat energy contribution (threshold: <10% of total energy)
+2. Free sugar energy contribution (threshold: <10% of total energy)
+3. Sodium density (threshold: <1.0 mg/kcal)
+4. Total fat energy contribution (threshold: <30% of total energy)
+5. Protein energy contribution (adequacy threshold: ≥10% of total energy)
+
+Health score range across dataset: **0.91 to 10.00** — zero missing values.
+
+---
+
+## 5. Team Core Contributions
 
 The research roles are divided into three specific sub-systems:
 
@@ -72,27 +130,34 @@ The research roles are divided into three specific sub-systems:
 
 ---
 
-## 5. Getting Started
+## 6. Getting Started
 
-### 5.1 Prerequisites
+### 6.1 Prerequisites
 Python 3.10+ is required. Verify that Python is on your PATH.
 
-### 5.2 Installation
+### 6.2 Installation
 Clone this repository and install all dependencies:
 ```bash
 pip install -r requirements.txt
 ```
 
-### 5.3 Dataset Placement
-1. Download the **Food.com Recipes and Reviews** dataset and **RecipeNLG** dataset.
-2. Place the raw files inside the ignored directory: `DATA/RAW/`
+### 6.3 Dataset Placement
+The `DATA/` directory is not tracked by Git. Download the datasets and place raw files as follows:
+1. **Food.com Recipes and Reviews** dataset:
    - `DATA/RAW/RAW_recipes.csv`
    - `DATA/RAW/RAW_interactions.csv`
-   - `DATA/RAW/recipenlg.parquet` (or raw CSV datasets)
+2. **RecipeNLG** dataset:
+   - `DATA/RAW/recipenlg.parquet`
 
-### 5.4 Running the Notebooks
-Execute the notebook cells locally to initialize the preprocessing pipelines:
+### 6.4 Running the Notebooks
+Execute notebooks in sequential order to reproduce the full pipeline:
 ```bash
 jupyter notebook
 ```
-Start by opening `NOTEBOOKS/01_DATASET_LOADING.ipynb` to verify the environment and generate initial sampled partitions.
+
+| Notebook | Purpose |
+| --- | --- |
+| `NOTEBOOKS/01_DATASET_LOADING.ipynb` | Schema validation, memory profiling, and sample generation |
+| `NOTEBOOKS/02_FOOD_DATASET_EDA.ipynb` | Exploratory analysis and figure generation |
+| `NOTEBOOKS/03_DATA_PREPROCESSING.ipynb` | K-core filtering, implicit labels, and temporal split output |
+| `NOTEBOOKS/04_FEATURE_ENGINEERING.ipynb` | WHO health score and categorical feature computation |
