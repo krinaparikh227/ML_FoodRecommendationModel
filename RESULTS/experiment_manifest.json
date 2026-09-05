@@ -1,12 +1,12 @@
 {
-  "manifest_title": "GroundedNutriRec Semantic Kaggle Outputs Suite",
-  "generated_at_utc": "2026-09-05T17:57:30.077092+00:00",
+  "manifest_title": "GroundedNutriRec Conference Empirical Artifact Suite (Markdown Native)",
+  "generated_at_utc": "2026-09-05T18:08:07.637113+00:00",
   "target_git_branch": "Kaggle-Outputs",
-  "total_verified_artifacts": 55,
+  "total_verified_artifacts": 97,
   "artifacts": [
     {
       "file_name": "gru4rec_training_loss_and_convergence_500dpi.png",
-      "relative_path": "RESULTS\\kaggle_outputs\\01_sequential_recommender_gru4rec\\figures_500dpi\\gru4rec_training_loss_and_convergence_500dpi.png",
+      "relative_path": "RESULTS/kaggle_outputs/01_sequential_recommender_gru4rec/figures_500dpi/gru4rec_training_loss_and_convergence_500dpi.png",
       "size_bytes": 474179,
       "size_kb": 463.07,
       "semantic_category": "publication_figure_500dpi",
@@ -14,23 +14,31 @@
     },
     {
       "file_name": "gru4rec_kaggle_execution_log.txt",
-      "relative_path": "RESULTS\\kaggle_outputs\\01_sequential_recommender_gru4rec\\logs\\gru4rec_kaggle_execution_log.txt",
-      "size_bytes": 0,
-      "size_kb": 0.0,
+      "relative_path": "RESULTS/kaggle_outputs/01_sequential_recommender_gru4rec/logs/gru4rec_kaggle_execution_log.txt",
+      "size_bytes": 73617,
+      "size_kb": 71.89,
       "semantic_category": "execution_log",
-      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+      "sha256": "3cb846d10cc3f5b3a882592872b301f021e7f913a54b1d784817bdea28fc7f6e"
     },
     {
       "file_name": "gru4rec_trained_neural_weights.pt",
-      "relative_path": "RESULTS\\kaggle_outputs\\01_sequential_recommender_gru4rec\\models\\gru4rec_trained_neural_weights.pt",
+      "relative_path": "RESULTS/kaggle_outputs/01_sequential_recommender_gru4rec/models/gru4rec_trained_neural_weights.pt",
       "size_bytes": 26636121,
       "size_kb": 26011.84,
       "semantic_category": "neural_model_weights",
       "sha256": "da78d66f3f91918e9e1f48514c50af9bae6c99793afd9581d12e5cdb71db2b64"
     },
     {
+      "file_name": "README.md",
+      "relative_path": "RESULTS/kaggle_outputs/01_sequential_recommender_gru4rec/README.md",
+      "size_bytes": 2077,
+      "size_kb": 2.03,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "33be178e9e878b56c0f1db612131d35e72460ce41d161c71526f8b12950afae6"
+    },
+    {
       "file_name": "gru4rec_ranking_performance_metrics.csv",
-      "relative_path": "RESULTS\\kaggle_outputs\\01_sequential_recommender_gru4rec\\tables\\gru4rec_ranking_performance_metrics.csv",
+      "relative_path": "RESULTS/kaggle_outputs/01_sequential_recommender_gru4rec/tables/gru4rec_ranking_performance_metrics.csv",
       "size_bytes": 470,
       "size_kb": 0.46,
       "semantic_category": "benchmark_metric_table",
@@ -38,23 +46,23 @@
     },
     {
       "file_name": "gru4rec_sample_user_recommendations.csv",
-      "relative_path": "RESULTS\\kaggle_outputs\\01_sequential_recommender_gru4rec\\tables\\gru4rec_sample_user_recommendations.csv",
+      "relative_path": "RESULTS/kaggle_outputs/01_sequential_recommender_gru4rec/tables/gru4rec_sample_user_recommendations.csv",
       "size_bytes": 66,
       "size_kb": 0.06,
       "semantic_category": "benchmark_metric_table",
       "sha256": "fb97fc9e0e8c906b14310af188782d3cc1873795dfcfa9c81c32637cbcc66f04"
     },
     {
-      "file_name": "16_sequential_recommender_gru_walkthrough.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\01_sequential_recommender_gru4rec\\walkthrough\\16_sequential_recommender_gru_walkthrough.html",
-      "size_bytes": 1874240,
-      "size_kb": 1830.31,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "878aaa1c3c66da21c40fca6244487265572749c61015aa6579a49863ade0771e"
+      "file_name": "16_sequential_recommender_gru_walkthrough.md",
+      "relative_path": "RESULTS/kaggle_outputs/01_sequential_recommender_gru4rec/walkthrough/16_sequential_recommender_gru_walkthrough.md",
+      "size_bytes": 405572,
+      "size_kb": 396.07,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "5b790f311cc9943a4676b9d8e37fdaa3cca3c7f9e1649290f73ba3481213aed5"
     },
     {
       "file_name": "explanation_logs.parquet",
-      "relative_path": "RESULTS\\kaggle_outputs\\02_faithfulness_verifier_nli\\data\\explanation_logs.parquet",
+      "relative_path": "RESULTS/kaggle_outputs/02_faithfulness_verifier_nli/data/explanation_logs.parquet",
       "size_bytes": 23240,
       "size_kb": 22.7,
       "semantic_category": "evaluation_dataset_or_cache",
@@ -62,7 +70,7 @@
     },
     {
       "file_name": "extracted_claims.parquet",
-      "relative_path": "RESULTS\\kaggle_outputs\\02_faithfulness_verifier_nli\\data\\extracted_claims.parquet",
+      "relative_path": "RESULTS/kaggle_outputs/02_faithfulness_verifier_nli/data/extracted_claims.parquet",
       "size_bytes": 20097,
       "size_kb": 19.63,
       "semantic_category": "evaluation_dataset_or_cache",
@@ -70,7 +78,7 @@
     },
     {
       "file_name": "food_knowledge_base.parquet",
-      "relative_path": "RESULTS\\kaggle_outputs\\02_faithfulness_verifier_nli\\data\\food_knowledge_base.parquet",
+      "relative_path": "RESULTS/kaggle_outputs/02_faithfulness_verifier_nli/data/food_knowledge_base.parquet",
       "size_bytes": 165955,
       "size_kb": 162.07,
       "semantic_category": "evaluation_dataset_or_cache",
@@ -78,7 +86,7 @@
     },
     {
       "file_name": "nli_verified_claims_dataset.parquet",
-      "relative_path": "RESULTS\\kaggle_outputs\\02_faithfulness_verifier_nli\\data\\nli_verified_claims_dataset.parquet",
+      "relative_path": "RESULTS/kaggle_outputs/02_faithfulness_verifier_nli/data/nli_verified_claims_dataset.parquet",
       "size_bytes": 79341,
       "size_kb": 77.48,
       "semantic_category": "evaluation_dataset_or_cache",
@@ -86,7 +94,7 @@
     },
     {
       "file_name": "nli_claim_faithfulness_and_hallucination_breakdown_500dpi.png",
-      "relative_path": "RESULTS\\kaggle_outputs\\02_faithfulness_verifier_nli\\figures_500dpi\\nli_claim_faithfulness_and_hallucination_breakdown_500dpi.png",
+      "relative_path": "RESULTS/kaggle_outputs/02_faithfulness_verifier_nli/figures_500dpi/nli_claim_faithfulness_and_hallucination_breakdown_500dpi.png",
       "size_bytes": 623134,
       "size_kb": 608.53,
       "semantic_category": "publication_figure_500dpi",
@@ -94,15 +102,23 @@
     },
     {
       "file_name": "nli_verifier_kaggle_execution_log.txt",
-      "relative_path": "RESULTS\\kaggle_outputs\\02_faithfulness_verifier_nli\\logs\\nli_verifier_kaggle_execution_log.txt",
+      "relative_path": "RESULTS/kaggle_outputs/02_faithfulness_verifier_nli/logs/nli_verifier_kaggle_execution_log.txt",
       "size_bytes": 5123,
       "size_kb": 5.0,
       "semantic_category": "execution_log",
       "sha256": "70af71547a753fd478647a5ea6ffb9b03bd01ef476615d29f4e7a1cab976157f"
     },
     {
+      "file_name": "README.md",
+      "relative_path": "RESULTS/kaggle_outputs/02_faithfulness_verifier_nli/README.md",
+      "size_bytes": 2050,
+      "size_kb": 2.0,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "b5616d2e357f838ca3ad80866b095e4cdd8c1345dce94a31938d079e2928a047"
+    },
+    {
       "file_name": "nli_claim_verification_summary.csv",
-      "relative_path": "RESULTS\\kaggle_outputs\\02_faithfulness_verifier_nli\\tables\\nli_claim_verification_summary.csv",
+      "relative_path": "RESULTS/kaggle_outputs/02_faithfulness_verifier_nli/tables/nli_claim_verification_summary.csv",
       "size_bytes": 344,
       "size_kb": 0.34,
       "semantic_category": "benchmark_metric_table",
@@ -110,103 +126,127 @@
     },
     {
       "file_name": "nli_hallucination_reduction_statistics.csv",
-      "relative_path": "RESULTS\\kaggle_outputs\\02_faithfulness_verifier_nli\\tables\\nli_hallucination_reduction_statistics.csv",
+      "relative_path": "RESULTS/kaggle_outputs/02_faithfulness_verifier_nli/tables/nli_hallucination_reduction_statistics.csv",
       "size_bytes": 148,
       "size_kb": 0.14,
       "semantic_category": "benchmark_metric_table",
       "sha256": "abc9c98e3ddc54dabb29fccb708efb2dd905c2366944df715e65560a3f9f2ea8"
     },
     {
-      "file_name": "19_faithfulness_verification_walkthrough.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\02_faithfulness_verifier_nli\\walkthrough\\19_faithfulness_verification_walkthrough.html",
-      "size_bytes": 613420,
-      "size_kb": 599.04,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "99d81f08beb3b8c5762438b1afa78e89ffeb954d99b2143ef7f13e540f4c45c9"
+      "file_name": "19_faithfulness_verification_walkthrough.md",
+      "relative_path": "RESULTS/kaggle_outputs/02_faithfulness_verifier_nli/walkthrough/19_faithfulness_verification_walkthrough.md",
+      "size_bytes": 287576,
+      "size_kb": 280.84,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "bcee0ce86dd3da988f5f9d89abcd6cfe21217b05de72c7d1b49158044ec02a37"
     },
     {
       "file_name": "multiobjective_pareto_tradeoff_frontier_curve_500dpi.png",
-      "relative_path": "RESULTS\\kaggle_outputs\\03_multiobjective_pareto_ranking\\figures_500dpi\\multiobjective_pareto_tradeoff_frontier_curve_500dpi.png",
+      "relative_path": "RESULTS/kaggle_outputs/03_multiobjective_pareto_ranking/figures_500dpi/multiobjective_pareto_tradeoff_frontier_curve_500dpi.png",
       "size_bytes": 498153,
       "size_kb": 486.48,
       "semantic_category": "publication_figure_500dpi",
       "sha256": "33f2c9b036f5613199ddfd89e09ee7f3b1197b121aa2876a1cb9d21034484c7d"
     },
     {
+      "file_name": "README.md",
+      "relative_path": "RESULTS/kaggle_outputs/03_multiobjective_pareto_ranking/README.md",
+      "size_bytes": 1582,
+      "size_kb": 1.54,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "ad12ceddb9f620ca7a5f5e53e1b72ce37c4a572631adb8153c599532c1129873"
+    },
+    {
       "file_name": "pareto_alpha_weight_sweep_benchmarks.csv",
-      "relative_path": "RESULTS\\kaggle_outputs\\03_multiobjective_pareto_ranking\\tables\\pareto_alpha_weight_sweep_benchmarks.csv",
+      "relative_path": "RESULTS/kaggle_outputs/03_multiobjective_pareto_ranking/tables/pareto_alpha_weight_sweep_benchmarks.csv",
       "size_bytes": 479,
       "size_kb": 0.47,
       "semantic_category": "benchmark_metric_table",
       "sha256": "e973f3c589e8bd35895cd122087e365d4e5f324abca775b2e98fe6fe0327a65b"
     },
     {
-      "file_name": "10_multi_objective_ranking.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\03_multiobjective_pareto_ranking\\walkthrough\\10_multi_objective_ranking.html",
-      "size_bytes": 317799,
-      "size_kb": 310.35,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "cc293c264ef0c74fb3ced154e15a376abb7b59e872f9d2be3d445ad2e8ac3e29"
+      "file_name": "10_multi_objective_ranking_walkthrough.md",
+      "relative_path": "RESULTS/kaggle_outputs/03_multiobjective_pareto_ranking/walkthrough/10_multi_objective_ranking_walkthrough.md",
+      "size_bytes": 10696,
+      "size_kb": 10.45,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "3a3957075125c07fa1597b5a8df8ecda576cd9495e38b8a7e7810da86e6e60fd"
     },
     {
-      "file_name": "21_pareto_ranking.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\03_multiobjective_pareto_ranking\\walkthrough\\21_pareto_ranking.html",
-      "size_bytes": 347989,
-      "size_kb": 339.83,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "7854f3bb868eef55ce48b39183028f2316705962f50cc1955dfaddd583a5e867"
+      "file_name": "21_pareto_ranking_walkthrough.md",
+      "relative_path": "RESULTS/kaggle_outputs/03_multiobjective_pareto_ranking/walkthrough/21_pareto_ranking_walkthrough.md",
+      "size_bytes": 13688,
+      "size_kb": 13.37,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "d8619a74e749e180403dcb96f8ecf50ba1f8b1a128c5984fb2c01bfd0810016d"
     },
     {
       "file_name": "health_score_calibration_ecdf_vs_minmax_distribution_500dpi.png",
-      "relative_path": "RESULTS\\kaggle_outputs\\04_nutritional_health_calibration\\figures_500dpi\\health_score_calibration_ecdf_vs_minmax_distribution_500dpi.png",
+      "relative_path": "RESULTS/kaggle_outputs/04_nutritional_health_calibration/figures_500dpi/health_score_calibration_ecdf_vs_minmax_distribution_500dpi.png",
       "size_bytes": 556844,
       "size_kb": 543.79,
       "semantic_category": "publication_figure_500dpi",
       "sha256": "6152c9f0599dd08f260261d6df787c5f0389032f4b219cdbb674ceaf38c59fb4"
     },
     {
+      "file_name": "README.md",
+      "relative_path": "RESULTS/kaggle_outputs/04_nutritional_health_calibration/README.md",
+      "size_bytes": 1142,
+      "size_kb": 1.12,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "d2f6e8b45cd18080d442d61ef9d783eb9b42d365371513a99f856f9edfe8693c"
+    },
+    {
       "file_name": "macronutrient_distribution_and_skew_metrics.csv",
-      "relative_path": "RESULTS\\kaggle_outputs\\04_nutritional_health_calibration\\tables\\macronutrient_distribution_and_skew_metrics.csv",
+      "relative_path": "RESULTS/kaggle_outputs/04_nutritional_health_calibration/tables/macronutrient_distribution_and_skew_metrics.csv",
       "size_bytes": 293,
       "size_kb": 0.29,
       "semantic_category": "benchmark_metric_table",
       "sha256": "1fbc0d77b9e2e79802a274f0afde58db441d33f3d0a25274bcce123119f59639"
     },
     {
-      "file_name": "09_health_score_generation_walkthrough.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\04_nutritional_health_calibration\\walkthrough\\09_health_score_generation_walkthrough.html",
-      "size_bytes": 1325872,
-      "size_kb": 1294.8,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "dd3cf76fdbc3f053ef86c3602cfe8db4d14529f958e7d46cbbae7b35453deb73"
+      "file_name": "09_health_score_generation_walkthrough.md",
+      "relative_path": "RESULTS/kaggle_outputs/04_nutritional_health_calibration/walkthrough/09_health_score_generation_walkthrough.md",
+      "size_bytes": 50816,
+      "size_kb": 49.62,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "7891dcc47e9d61b40a761919864ffee43d4b7818efc9dcfb64e9a7d8c86430ab"
     },
     {
       "file_name": "ab_testing_30day_user_cohort_retention_curves_500dpi.png",
-      "relative_path": "RESULTS\\kaggle_outputs\\05_ab_testing_simulation\\figures_500dpi\\ab_testing_30day_user_cohort_retention_curves_500dpi.png",
+      "relative_path": "RESULTS/kaggle_outputs/05_ab_testing_simulation/figures_500dpi/ab_testing_30day_user_cohort_retention_curves_500dpi.png",
       "size_bytes": 686652,
       "size_kb": 670.56,
       "semantic_category": "publication_figure_500dpi",
       "sha256": "5111e522020667cfd0ff8e8ff5e11be8065bfefa7b34c4f742b026abde380ff9"
     },
     {
+      "file_name": "README.md",
+      "relative_path": "RESULTS/kaggle_outputs/05_ab_testing_simulation/README.md",
+      "size_bytes": 1053,
+      "size_kb": 1.03,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "491ed1f1d527d5b4f4c0785a9a2f2098cabf08541cdd959ff0c3f1c631c0cdba"
+    },
+    {
       "file_name": "ab_testing_simulation_comparison.csv",
-      "relative_path": "RESULTS\\kaggle_outputs\\05_ab_testing_simulation\\tables\\ab_testing_simulation_comparison.csv",
+      "relative_path": "RESULTS/kaggle_outputs/05_ab_testing_simulation/tables/ab_testing_simulation_comparison.csv",
       "size_bytes": 199,
       "size_kb": 0.19,
       "semantic_category": "benchmark_metric_table",
       "sha256": "9a4e9f5827f413b4c3372cad3de5959135045bd2db465fc3b6bc90ae676c5c45"
     },
     {
-      "file_name": "23_ab_testing_simulator_walkthrough.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\05_ab_testing_simulation\\walkthrough\\23_ab_testing_simulator_walkthrough.html",
-      "size_bytes": 302698,
-      "size_kb": 295.6,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "8fed6cf596c2705757768016cae2f35b5b2fdb29cf3815226c47f66e0a831c01"
+      "file_name": "23_ab_testing_simulator_walkthrough.md",
+      "relative_path": "RESULTS/kaggle_outputs/05_ab_testing_simulation/walkthrough/23_ab_testing_simulator_walkthrough.md",
+      "size_bytes": 7996,
+      "size_kb": 7.81,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "c0ef403866b0acf677dc2af6171422585134909c1ab30723ca1e140bed6e1129"
     },
     {
       "file_name": "dataset_interaction_sparsity_and_characteristics_500dpi.png",
-      "relative_path": "RESULTS\\kaggle_outputs\\06_comparative_recommender_benchmarks\\figures_500dpi\\dataset_interaction_sparsity_and_characteristics_500dpi.png",
+      "relative_path": "RESULTS/kaggle_outputs/06_comparative_recommender_benchmarks/figures_500dpi/dataset_interaction_sparsity_and_characteristics_500dpi.png",
       "size_bytes": 492567,
       "size_kb": 481.02,
       "semantic_category": "publication_figure_500dpi",
@@ -214,31 +254,39 @@
     },
     {
       "file_name": "recommender_baseline_model_performance_comparison_500dpi.png",
-      "relative_path": "RESULTS\\kaggle_outputs\\06_comparative_recommender_benchmarks\\figures_500dpi\\recommender_baseline_model_performance_comparison_500dpi.png",
+      "relative_path": "RESULTS/kaggle_outputs/06_comparative_recommender_benchmarks/figures_500dpi/recommender_baseline_model_performance_comparison_500dpi.png",
       "size_bytes": 337484,
       "size_kb": 329.57,
       "semantic_category": "publication_figure_500dpi",
       "sha256": "944a916089f6b823a4e2cfc71f4ed52aef377fcd3e2d0d49ba3bf3cbd5201cd7"
     },
     {
+      "file_name": "README.md",
+      "relative_path": "RESULTS/kaggle_outputs/06_comparative_recommender_benchmarks/README.md",
+      "size_bytes": 2156,
+      "size_kb": 2.11,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "6e581b10836a8eaa324605e0e366e14dc32db20b3bdbc7d9cf357650ebc805fc"
+    },
+    {
       "file_name": "leakage_audit_report.json",
-      "relative_path": "RESULTS\\kaggle_outputs\\06_comparative_recommender_benchmarks\\tables\\leakage_audit_report.json",
+      "relative_path": "RESULTS/kaggle_outputs/06_comparative_recommender_benchmarks/tables/leakage_audit_report.json",
       "size_bytes": 757,
       "size_kb": 0.74,
-      "semantic_category": "benchmark_metric_table",
+      "semantic_category": "structured_metadata",
       "sha256": "6307323c90fd0b9797fe4ee04c19be9c9ea7268e78c74dd32478293d52ab7ec5"
     },
     {
       "file_name": "raw_data_manifest.json",
-      "relative_path": "RESULTS\\kaggle_outputs\\06_comparative_recommender_benchmarks\\tables\\raw_data_manifest.json",
+      "relative_path": "RESULTS/kaggle_outputs/06_comparative_recommender_benchmarks/tables/raw_data_manifest.json",
       "size_bytes": 1426,
       "size_kb": 1.39,
-      "semantic_category": "benchmark_metric_table",
+      "semantic_category": "structured_metadata",
       "sha256": "e100464b967466f65f2521086b35457485d89a1303ab7737a2d7789438866010"
     },
     {
       "file_name": "table1_dataset_characteristics.csv",
-      "relative_path": "RESULTS\\kaggle_outputs\\06_comparative_recommender_benchmarks\\tables\\table1_dataset_characteristics.csv",
+      "relative_path": "RESULTS/kaggle_outputs/06_comparative_recommender_benchmarks/tables/table1_dataset_characteristics.csv",
       "size_bytes": 454,
       "size_kb": 0.44,
       "semantic_category": "benchmark_metric_table",
@@ -246,7 +294,7 @@
     },
     {
       "file_name": "table1_dataset_statistics.csv",
-      "relative_path": "RESULTS\\kaggle_outputs\\06_comparative_recommender_benchmarks\\tables\\table1_dataset_statistics.csv",
+      "relative_path": "RESULTS/kaggle_outputs/06_comparative_recommender_benchmarks/tables/table1_dataset_statistics.csv",
       "size_bytes": 592,
       "size_kb": 0.58,
       "semantic_category": "benchmark_metric_table",
@@ -254,195 +302,483 @@
     },
     {
       "file_name": "table2_recommendation_benchmarks.csv",
-      "relative_path": "RESULTS\\kaggle_outputs\\06_comparative_recommender_benchmarks\\tables\\table2_recommendation_benchmarks.csv",
+      "relative_path": "RESULTS/kaggle_outputs/06_comparative_recommender_benchmarks/tables/table2_recommendation_benchmarks.csv",
       "size_bytes": 470,
       "size_kb": 0.46,
       "semantic_category": "benchmark_metric_table",
       "sha256": "44cbc18c63097dd10b8eff4fb54b3a391db8f2a88906a3d6126c1bfccec83e9b"
     },
     {
-      "file_name": "01_DATASET_LOADING.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\01_DATASET_LOADING.html",
-      "size_bytes": 333606,
-      "size_kb": 325.79,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "019cf168448110038822dc4c18519b167be7d0d555df22e60709298c153caea6"
+      "file_name": "01_DATASET_LOADING.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/01_DATASET_LOADING.md",
+      "size_bytes": 18394,
+      "size_kb": 17.96,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "1d82af8fc24e685c99514e795dfaba8f1fb62a0d60b1a4df5d40092736d57e94"
     },
     {
-      "file_name": "02_food_dataset_eda.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\02_food_dataset_eda.html",
-      "size_bytes": 470176,
-      "size_kb": 459.16,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "3aace10729564a365222b709eaa75cd065b9ef5e8c3c34e012fe276f3dbc8299"
+      "file_name": "02_food_dataset_eda.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/02_food_dataset_eda.md",
+      "size_bytes": 12779,
+      "size_kb": 12.48,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "29939f01d5f4c5b1bc2981be487520514d2fbe51a8d73b779f48043a61efeeb1"
     },
     {
-      "file_name": "03_data_preprocessing.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\03_data_preprocessing.html",
-      "size_bytes": 390470,
-      "size_kb": 381.32,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "181599a32723e54ffc2f90013af0c9a40d82df07a195884b4350ce521c1addaa"
+      "file_name": "02_food_dataset_eda_14_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/02_food_dataset_eda_files/02_food_dataset_eda_14_1.png",
+      "size_bytes": 20613,
+      "size_kb": 20.13,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "0db1f69546bcca1b8fd243819cd2d464f1e359ff5e3e3de4415964115cf6341f"
     },
     {
-      "file_name": "04_feature_engineering.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\04_feature_engineering.html",
-      "size_bytes": 515878,
-      "size_kb": 503.79,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "b6d834670535aa3b72aa69954c79582739f236edf1875d17ccdafdd3c71e3014"
+      "file_name": "02_food_dataset_eda_6_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/02_food_dataset_eda_files/02_food_dataset_eda_6_1.png",
+      "size_bytes": 14973,
+      "size_kb": 14.62,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "86b5a33f3d8e9c0245d232eae6d47f32071c804cc1678d1968a9d51e3a665f08"
     },
     {
-      "file_name": "05_popularity_recommender.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\05_popularity_recommender.html",
-      "size_bytes": 426913,
-      "size_kb": 416.91,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "495115fa8588e6145b61a28994b5e4ec8d308b44b10d265623a3e90c58cca370"
+      "file_name": "02_food_dataset_eda_6_2.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/02_food_dataset_eda_files/02_food_dataset_eda_6_2.png",
+      "size_bytes": 22301,
+      "size_kb": 21.78,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "c8fa4cbaf956aac363433ae0260605d06b2735ccb2b59ae29cb7c281e9c49fb7"
     },
     {
-      "file_name": "06_CONTENT_BASED_RECOMMENDER.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\06_CONTENT_BASED_RECOMMENDER.html",
-      "size_bytes": 510749,
-      "size_kb": 498.78,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "dd025339978d55ee6dd10b2a9ede157c63c1657613e8cd60d2bee1c599c9b21b"
+      "file_name": "02_food_dataset_eda_9_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/02_food_dataset_eda_files/02_food_dataset_eda_9_1.png",
+      "size_bytes": 52923,
+      "size_kb": 51.68,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "3fc5f5d5acc844389592869f272cede7929323abae92b69a66252ac771af1827"
     },
     {
-      "file_name": "07_collaborative_filtering.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\07_collaborative_filtering.html",
-      "size_bytes": 372244,
-      "size_kb": 363.52,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "6796694e748d0840b9bb1f0f3274c5b0bfef650c7eb4f180c7b121e8bc8a0a36"
+      "file_name": "03_data_preprocessing.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/03_data_preprocessing.md",
+      "size_bytes": 13200,
+      "size_kb": 12.89,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "0109506db7d5f7ccd280799fa8f18e937de09eba89893654842a597216432531"
     },
     {
-      "file_name": "08_evaluation_metrics.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\08_evaluation_metrics.html",
-      "size_bytes": 472558,
-      "size_kb": 461.48,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "ad2ae34a1bd9ef608987bd63cf4716a0be97df21602c23bf1e792eea87774879"
+      "file_name": "03_data_preprocessing_16_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/03_data_preprocessing_files/03_data_preprocessing_16_1.png",
+      "size_bytes": 44389,
+      "size_kb": 43.35,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "9133f4d59193b5569a4938aa9af5b4a3afde77523305bd6c2b471a2d94f42ce4"
     },
     {
-      "file_name": "09_health_score_generation.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\09_health_score_generation.html",
-      "size_bytes": 1325872,
-      "size_kb": 1294.8,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "dd3cf76fdbc3f053ef86c3602cfe8db4d14529f958e7d46cbbae7b35453deb73"
+      "file_name": "04_feature_engineering.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering.md",
+      "size_bytes": 15057,
+      "size_kb": 14.7,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "c5f256928bf8b3b808c991f20cdced979f600db460952137bad6903e9146d721"
     },
     {
-      "file_name": "10_multi_objective_ranking.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\10_multi_objective_ranking.html",
-      "size_bytes": 317799,
-      "size_kb": 310.35,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "cc293c264ef0c74fb3ced154e15a376abb7b59e872f9d2be3d445ad2e8ac3e29"
+      "file_name": "04_feature_engineering_14_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering_files/04_feature_engineering_14_1.png",
+      "size_bytes": 14435,
+      "size_kb": 14.1,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "9fab22b938d6015930e4c7850820d02cf5a1bd54475b3cf3c3344a721b423b08"
     },
     {
-      "file_name": "11_ablation_weight_analysis.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\11_ablation_weight_analysis.html",
-      "size_bytes": 336157,
-      "size_kb": 328.28,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "c7ffa7aba3050f6804c9d2bab9af94e775137323bfefb0b85511a95a72652a31"
+      "file_name": "04_feature_engineering_15_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering_files/04_feature_engineering_15_1.png",
+      "size_bytes": 14867,
+      "size_kb": 14.52,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "00f5da2d0d1a0bfe87c414c1da347ce49b30e7f246268e783044accea7be0420"
     },
     {
-      "file_name": "12_food_knowledge_base_creation.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\12_food_knowledge_base_creation.html",
-      "size_bytes": 411744,
-      "size_kb": 402.09,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "6ae4e2e6b4e177afd9d676264301daaecbc2a078e1b00cbbd3bee8e89d24b67b"
+      "file_name": "04_feature_engineering_16_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering_files/04_feature_engineering_16_1.png",
+      "size_bytes": 17656,
+      "size_kb": 17.24,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "757d14878328332a835e7fc56e69c8348539cdde1b5ffa71663468266e5911f8"
     },
     {
-      "file_name": "13_vector_search_rag.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\13_vector_search_rag.html",
-      "size_bytes": 567342,
-      "size_kb": 554.04,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "edb122141a43bf133ed4cbd3d703af922937da6df420276c5e247685cc70a0a0"
+      "file_name": "04_feature_engineering_17_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering_files/04_feature_engineering_17_0.png",
+      "size_bytes": 35332,
+      "size_kb": 34.5,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "bcb8c00e453a49285b2b23a6561c81f07a4fd1fb821dcdde08fcef00923e27a8"
     },
     {
-      "file_name": "14_llm_explanation_generation.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\14_llm_explanation_generation.html",
-      "size_bytes": 375465,
-      "size_kb": 366.67,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "3675eff6f4440a426ef06750379dfd0920c45315a13d8c6d65098662b6b69516"
+      "file_name": "04_feature_engineering_18_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering_files/04_feature_engineering_18_0.png",
+      "size_bytes": 32710,
+      "size_kb": 31.94,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "bae154492af1678d2ab4f35473a08f8177edb71cf8e327ae32189f25316f2174"
     },
     {
-      "file_name": "15_faithfulness_check.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\15_faithfulness_check.html",
-      "size_bytes": 335558,
-      "size_kb": 327.69,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "b81c9770372ad1d337a7bdc28fdae22f72e30cfaef943809c504f742ad63d170"
+      "file_name": "04_feature_engineering_19_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering_files/04_feature_engineering_19_1.png",
+      "size_bytes": 19929,
+      "size_kb": 19.46,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "000c69adf2c3f7a2c558c3f6382b5383fd29dabf15e258e5d11094002f608a4d"
     },
     {
-      "file_name": "16_sequential_recommender_gru.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\16_sequential_recommender_gru.html",
-      "size_bytes": 1874240,
-      "size_kb": 1830.31,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "878aaa1c3c66da21c40fca6244487265572749c61015aa6579a49863ade0771e"
+      "file_name": "05_popularity_recommender.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/05_popularity_recommender.md",
+      "size_bytes": 8980,
+      "size_kb": 8.77,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "101a6e50478aa22c3bc6f59a786da1ef946793ac89bc09e320c36a2632eda479"
     },
     {
-      "file_name": "17_transformer_based_recommender.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\17_transformer_based_recommender.html",
-      "size_bytes": 1221514,
-      "size_kb": 1192.88,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "b5a9d7dc2d26dd9aa5d48a58fa1661177a28396eb45e19c33a75fa1c059d876f"
+      "file_name": "05_popularity_recommender_6_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/05_popularity_recommender_files/05_popularity_recommender_6_1.png",
+      "size_bytes": 45239,
+      "size_kb": 44.18,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "766033f1f84c533a3704cf9e76fd7c2211e75f7425cff85265d6baf5b8e566dd"
     },
     {
-      "file_name": "18_claim_extraction.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\18_claim_extraction.html",
-      "size_bytes": 358633,
-      "size_kb": 350.23,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "27bade0ccd827d6503a9faf0f202567ed010233f2750d616ba671227dead1cb3"
+      "file_name": "05_popularity_recommender_9_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/05_popularity_recommender_files/05_popularity_recommender_9_1.png",
+      "size_bytes": 39694,
+      "size_kb": 38.76,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "ce2a10298a64a01fe43010b8d995c6417e88c4482f5ad917639a7b5642023d88"
     },
     {
-      "file_name": "19_faithfulness_verification.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\19_faithfulness_verification.html",
-      "size_bytes": 613420,
-      "size_kb": 599.04,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "99d81f08beb3b8c5762438b1afa78e89ffeb954d99b2143ef7f13e540f4c45c9"
+      "file_name": "06_CONTENT_BASED_RECOMMENDER.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/06_CONTENT_BASED_RECOMMENDER.md",
+      "size_bytes": 22313,
+      "size_kb": 21.79,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "61c3ab674cb2d8cc714168cea84c9ce2085b437989f7f869bdb9112d330d2b20"
     },
     {
-      "file_name": "20_hallucination_analysis.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\20_hallucination_analysis.html",
-      "size_bytes": 315560,
-      "size_kb": 308.16,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "e71ba9b1c4ccb7ebc628c7bdbe6f4980d01566b8703bdcd06b7830d66190486c"
+      "file_name": "06_CONTENT_BASED_RECOMMENDER_18_2.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/06_CONTENT_BASED_RECOMMENDER_files/06_CONTENT_BASED_RECOMMENDER_18_2.png",
+      "size_bytes": 104517,
+      "size_kb": 102.07,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "50d05c04935347c3ecb32dffb71bf78f8c8651dd5e63c3b6c9e54a2349083814"
     },
     {
-      "file_name": "21_pareto_ranking.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\21_pareto_ranking.html",
-      "size_bytes": 347989,
-      "size_kb": 339.83,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "7854f3bb868eef55ce48b39183028f2316705962f50cc1955dfaddd583a5e867"
+      "file_name": "07_collaborative_filtering.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/07_collaborative_filtering.md",
+      "size_bytes": 15666,
+      "size_kb": 15.3,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "b005328f4b27eb0e576705bceaf358415b5e9694805a7c67f1246b6067571c58"
     },
     {
-      "file_name": "22_multi_objective_comparison.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\22_multi_objective_comparison.html",
-      "size_bytes": 347417,
-      "size_kb": 339.27,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "0a859b4a47442870c6f4f2877bd6c2fca783efd8277b811aa7d862f09f1f0046"
+      "file_name": "08_evaluation_metrics.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/08_evaluation_metrics.md",
+      "size_bytes": 22187,
+      "size_kb": 21.67,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "7d3ab7527727e3ad8544e4c19a326311cf70c56ff3cc626a3dfd712c94490a25"
     },
     {
-      "file_name": "23_ab_testing_simulator.html",
-      "relative_path": "RESULTS\\kaggle_outputs\\07_all_notebook_walkthroughs_html\\23_ab_testing_simulator.html",
-      "size_bytes": 302698,
-      "size_kb": 295.6,
-      "semantic_category": "interactive_notebook_walkthrough",
-      "sha256": "8fed6cf596c2705757768016cae2f35b5b2fdb29cf3815226c47f66e0a831c01"
+      "file_name": "08_evaluation_metrics_28_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/08_evaluation_metrics_files/08_evaluation_metrics_28_1.png",
+      "size_bytes": 43491,
+      "size_kb": 42.47,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "f8d7f9f86c7c77ba34d4d091c809e1602bd2ecb624b7909b3e2eca8cf18c5e37"
+    },
+    {
+      "file_name": "09_health_score_generation.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation.md",
+      "size_bytes": 50816,
+      "size_kb": 49.62,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "7891dcc47e9d61b40a761919864ffee43d4b7818efc9dcfb64e9a7d8c86430ab"
+    },
+    {
+      "file_name": "09_health_score_generation_10_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_10_1.png",
+      "size_bytes": 81974,
+      "size_kb": 80.05,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "c219cb228de5945fa3d07946c6bbe25be21a7f8500fe854f7661bd5a3821b3b0"
+    },
+    {
+      "file_name": "09_health_score_generation_16_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_16_0.png",
+      "size_bytes": 75958,
+      "size_kb": 74.18,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "124d10a5a169ad093d489de8d9e7297eab15c0d3f7b99cc9be33f54d99e903da"
+    },
+    {
+      "file_name": "09_health_score_generation_18_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_18_0.png",
+      "size_bytes": 44166,
+      "size_kb": 43.13,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "74b7a825c44c7ee5df5a1bca0309d6678c335d13e8891631782b9db3f3b6b2f9"
+    },
+    {
+      "file_name": "09_health_score_generation_22_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_22_0.png",
+      "size_bytes": 44387,
+      "size_kb": 43.35,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "889ecf7b0bff466c46b13fe5efc377787106610b8addd3c67f16120ad5e57a0d"
+    },
+    {
+      "file_name": "09_health_score_generation_26_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_26_0.png",
+      "size_bytes": 41655,
+      "size_kb": 40.68,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "df275d929566471d0fb5ea23480300e0e0fb0c9af9538be1cfd8e8075fcd1169"
+    },
+    {
+      "file_name": "09_health_score_generation_28_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_28_0.png",
+      "size_bytes": 308267,
+      "size_kb": 301.04,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "2868e1ace2dacd84a6bed9f0cf254a64e6856927b0797985ff954470df10f291"
+    },
+    {
+      "file_name": "09_health_score_generation_30_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_30_1.png",
+      "size_bytes": 49809,
+      "size_kb": 48.64,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "06a2bb22e9840e64f80f57ae7bc78f44ccead1cb190c77533ab47a8d0ac4c6bd"
+    },
+    {
+      "file_name": "09_health_score_generation_32_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_32_0.png",
+      "size_bytes": 29437,
+      "size_kb": 28.75,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "38033614216830b13b775256a5f37f1c66fd155d3148a41ad41ce5860243a5bc"
+    },
+    {
+      "file_name": "10_multi_objective_ranking.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/10_multi_objective_ranking.md",
+      "size_bytes": 10696,
+      "size_kb": 10.45,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "3a3957075125c07fa1597b5a8df8ecda576cd9495e38b8a7e7810da86e6e60fd"
+    },
+    {
+      "file_name": "11_ablation_weight_analysis.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/11_ablation_weight_analysis.md",
+      "size_bytes": 11321,
+      "size_kb": 11.06,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "75155281d7001630900cc2f1dcd78f5fb6e99b65b3320a41158c94b20e9a111d"
+    },
+    {
+      "file_name": "12_food_knowledge_base_creation.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/12_food_knowledge_base_creation.md",
+      "size_bytes": 20730,
+      "size_kb": 20.24,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "d8556bbd0475c7660229bf7cbb3e7f801ed4fe4f44946a5a1e51adef29009edc"
+    },
+    {
+      "file_name": "12_food_knowledge_base_creation_18_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/12_food_knowledge_base_creation_files/12_food_knowledge_base_creation_18_0.png",
+      "size_bytes": 43911,
+      "size_kb": 42.88,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "ebae3019da734128a07da92e5fbec71786d877e5b64c2f63197f6e8514e378e1"
+    },
+    {
+      "file_name": "13_vector_search_rag.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/13_vector_search_rag.md",
+      "size_bytes": 31000,
+      "size_kb": 30.27,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "aa4927372753c9a00f0f456626339991515dfc75d32715a2e9d81f6d0cd7cfa1"
+    },
+    {
+      "file_name": "14_llm_explanation_generation.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/14_llm_explanation_generation.md",
+      "size_bytes": 7182,
+      "size_kb": 7.01,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "559c4ee2420b4f847b27352b4d4035d5f609e104f237851507b8f125af3c0526"
+    },
+    {
+      "file_name": "14_llm_explanation_generation_11_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/14_llm_explanation_generation_files/14_llm_explanation_generation_11_0.png",
+      "size_bytes": 31991,
+      "size_kb": 31.24,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "6d10933b74c9d9f5ebfa101dd7a7c5b7df31587a6fae5adf3a536f2db179c684"
+    },
+    {
+      "file_name": "14_llm_explanation_generation_11_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/14_llm_explanation_generation_files/14_llm_explanation_generation_11_1.png",
+      "size_bytes": 13700,
+      "size_kb": 13.38,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "1647c3a3d28790691bf7ab93396c71d5ed05a6796279221a5aab588952a4f71b"
+    },
+    {
+      "file_name": "15_faithfulness_check.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/15_faithfulness_check.md",
+      "size_bytes": 7168,
+      "size_kb": 7.0,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "b9b8c1d203f33ab0df33b5c47502d814f323e66674dcb67d779905f3052e91b3"
+    },
+    {
+      "file_name": "16_sequential_recommender_gru.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/16_sequential_recommender_gru.md",
+      "size_bytes": 405572,
+      "size_kb": 396.07,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "5b790f311cc9943a4676b9d8e37fdaa3cca3c7f9e1649290f73ba3481213aed5"
+    },
+    {
+      "file_name": "17_transformer_based_recommender.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/17_transformer_based_recommender.md",
+      "size_bytes": 16262,
+      "size_kb": 15.88,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "dd90c3b9ede4462a6cb85161237dfac57c3b9118ed5edba401751b5d1e0a1af2"
+    },
+    {
+      "file_name": "17_transformer_based_recommender_16_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/17_transformer_based_recommender_files/17_transformer_based_recommender_16_0.png",
+      "size_bytes": 45531,
+      "size_kb": 44.46,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "ce26d92a01d81286d1f322f0e13c81ccc0d1b8198f184045ea06e18bfbd0c657"
+    },
+    {
+      "file_name": "17_transformer_based_recommender_18_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/17_transformer_based_recommender_files/17_transformer_based_recommender_18_0.png",
+      "size_bytes": 53009,
+      "size_kb": 51.77,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "756064e793f998f79a582a6ac88277f3f405d815298f1aa6316b1d0ecc597553"
+    },
+    {
+      "file_name": "17_transformer_based_recommender_20_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/17_transformer_based_recommender_files/17_transformer_based_recommender_20_0.png",
+      "size_bytes": 41541,
+      "size_kb": 40.57,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "94b10fab73b185283efb37a8b77ee1539b298a44bc96ff7327e988ebefbbeec0"
+    },
+    {
+      "file_name": "17_transformer_based_recommender_22_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/17_transformer_based_recommender_files/17_transformer_based_recommender_22_0.png",
+      "size_bytes": 66894,
+      "size_kb": 65.33,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "63248eb318508b929a1eb120a0d546b10d805bbe967d7d158122ab31f6fa3baf"
+    },
+    {
+      "file_name": "17_transformer_based_recommender_24_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/17_transformer_based_recommender_files/17_transformer_based_recommender_24_0.png",
+      "size_bytes": 444066,
+      "size_kb": 433.66,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "82633cb81a637ea6d9e27e2914e1a29cc05efd600d364f98a394adc7064d3519"
+    },
+    {
+      "file_name": "18_claim_extraction.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/18_claim_extraction.md",
+      "size_bytes": 6364,
+      "size_kb": 6.21,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "c4034de1b213d98bf9546cc705a78ef5e146e19494966da46a08308a48b7e136"
+    },
+    {
+      "file_name": "18_claim_extraction_11_0.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/18_claim_extraction_files/18_claim_extraction_11_0.png",
+      "size_bytes": 13837,
+      "size_kb": 13.51,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "a012e0e9f432c88ed1c9d73136dcb6b1b310e02170fe59cc9337a8352458919e"
+    },
+    {
+      "file_name": "18_claim_extraction_11_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/18_claim_extraction_files/18_claim_extraction_11_1.png",
+      "size_bytes": 20025,
+      "size_kb": 19.56,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "10494a9b79d43c3bb89218325fcc3f0fb2cfe50dbe8bb810ad013aeff753892e"
+    },
+    {
+      "file_name": "19_faithfulness_verification.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/19_faithfulness_verification.md",
+      "size_bytes": 287576,
+      "size_kb": 280.84,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "bcee0ce86dd3da988f5f9d89abcd6cfe21217b05de72c7d1b49158044ec02a37"
+    },
+    {
+      "file_name": "20_hallucination_analysis.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/20_hallucination_analysis.md",
+      "size_bytes": 6798,
+      "size_kb": 6.64,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "ddf016dfe570ca059092ad37d5b2b315157eb6ddebde6a751b706757a41c0ec4"
+    },
+    {
+      "file_name": "21_pareto_ranking.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/21_pareto_ranking.md",
+      "size_bytes": 13688,
+      "size_kb": 13.37,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "d8619a74e749e180403dcb96f8ecf50ba1f8b1a128c5984fb2c01bfd0810016d"
+    },
+    {
+      "file_name": "22_multi_objective_comparison.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/22_multi_objective_comparison.md",
+      "size_bytes": 4925,
+      "size_kb": 4.81,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "153eb150af6128828993f45dd83e5ed6c00cd067db837bc080a2cc44ffee7526"
+    },
+    {
+      "file_name": "22_multi_objective_comparison_3_1.png",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/22_multi_objective_comparison_files/22_multi_objective_comparison_3_1.png",
+      "size_bytes": 35882,
+      "size_kb": 35.04,
+      "semantic_category": "publication_figure_500dpi",
+      "sha256": "373d9e3b749733edb64601d6e71a79f5a47adec8eef92f077d9d5c43d7e60258"
+    },
+    {
+      "file_name": "23_ab_testing_simulator.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/23_ab_testing_simulator.md",
+      "size_bytes": 7996,
+      "size_kb": 7.81,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "c0ef403866b0acf677dc2af6171422585134909c1ab30723ca1e140bed6e1129"
+    },
+    {
+      "file_name": "README.md",
+      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/README.md",
+      "size_bytes": 2827,
+      "size_kb": 2.76,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "369563d4c9160214cb45612a0603306ab8c524813dcb7ae12c8073bd542bb72b"
+    },
+    {
+      "file_name": "README.md",
+      "relative_path": "RESULTS/kaggle_outputs/README.md",
+      "size_bytes": 6029,
+      "size_kb": 5.89,
+      "semantic_category": "markdown_walkthrough_or_documentation",
+      "sha256": "fc90a83ca761d3a330303b5d634facdb1831005ea231120401efe3717524222b"
     }
   ]
 }
