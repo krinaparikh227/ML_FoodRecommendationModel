@@ -208,11 +208,6 @@ plt.show()
 
 
     
-![png](04_feature_engineering_files/04_feature_engineering_14_1.png)
-    
-
-
-
 ```python
 # 2. Protein Level Distribution
 plt.figure(figsize=(8, 5))
@@ -234,11 +229,6 @@ plt.show()
 
 
     
-![png](04_feature_engineering_files/04_feature_engineering_15_1.png)
-    
-
-
-
 ```python
 # 3. Fat Level Distribution
 plt.figure(figsize=(8, 5))
@@ -260,11 +250,6 @@ plt.show()
 
 
     
-![png](04_feature_engineering_files/04_feature_engineering_16_1.png)
-    
-
-
-
 ```python
 # 4. Ingredient Count Distribution
 plt.figure(figsize=(8, 5))
@@ -279,11 +264,6 @@ plt.show()
 
 
     
-![png](04_feature_engineering_files/04_feature_engineering_17_0.png)
-    
-
-
-
 ```python
 # 5. Health Score Distribution
 plt.figure(figsize=(8, 5))
@@ -298,11 +278,6 @@ plt.show()
 
 
     
-![png](04_feature_engineering_files/04_feature_engineering_18_0.png)
-    
-
-
-
 ```python
 # 6. Preparation Complexity Distribution
 plt.figure(figsize=(8, 5))
@@ -324,11 +299,6 @@ plt.show()
 
 
     
-![png](04_feature_engineering_files/04_feature_engineering_19_1.png)
-    
-
-
-
 ```python
 df[['calories','calorie_level',
     'protein','protein_level',

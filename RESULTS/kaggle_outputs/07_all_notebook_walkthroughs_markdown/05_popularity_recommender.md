@@ -178,10 +178,6 @@ plt.show()
 
 
     
-![png](05_popularity_recommender_files/05_popularity_recommender_6_1.png)
-    
-
-
 ## 3. Rating-Based Recommender
 
 Recommend the highest-rated items that meet a minimum interaction threshold.
@@ -344,10 +340,6 @@ plt.show()
 
 
     
-![png](05_popularity_recommender_files/05_popularity_recommender_9_1.png)
-    
-
-
 ## 4. Save Predictions for Evaluation
 
 For evaluation, we just need the ordered list of items for these baselines.

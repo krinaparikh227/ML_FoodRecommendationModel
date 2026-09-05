@@ -682,10 +682,6 @@ plt.show()
 
 
     
-![png](12_food_knowledge_base_creation_files/12_food_knowledge_base_creation_18_0.png)
-    
-
-
 ## 10. Save Knowledge Base
 
 We save two formats:

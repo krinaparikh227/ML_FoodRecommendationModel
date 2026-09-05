@@ -343,10 +343,6 @@ display(Image(filename='RESULTS/figures/17_seq_len_distribution.png', width=600)
 
 
     
-![png](17_transformer_based_recommender_files/17_transformer_based_recommender_16_0.png)
-    
-
-
 ### 6.2. Training Loss Curves
 The training loss curves for both the GRU4Rec baseline and the SASRec transformer model show the progress of Binary Cross-Entropy loss optimization over epochs.
 
@@ -357,10 +353,6 @@ display(Image(filename='RESULTS/figures/17_loss_curves.png', width=600))
 
 
     
-![png](17_transformer_based_recommender_files/17_transformer_based_recommender_18_0.png)
-    
-
-
 ### 6.3. Sequential Models Performance Comparison
 This bar chart visualizes the HitRate@10 and NDCG@10 metrics across the Markov Chain, GRU4Rec, and SASRec recommenders.
 
@@ -371,10 +363,6 @@ display(Image(filename='RESULTS/figures/17_sequential_comparison.png', width=700
 
 
     
-![png](17_transformer_based_recommender_files/17_transformer_based_recommender_20_0.png)
-    
-
-
 ### 6.4. SASRec Causal Self-Attention Heatmap
 Visualizing the causal self-attention weights allows us to understand how SASRec allocates attention across past user interactions when predicting the next recipe.
 
@@ -385,10 +373,6 @@ display(Image(filename='RESULTS/figures/17_attention_heatmap.png', width=600))
 
 
     
-![png](17_transformer_based_recommender_files/17_transformer_based_recommender_22_0.png)
-    
-
-
 ### 6.5. t-SNE Latent Space Projection of Item Embeddings
 This projection maps the learned high-dimensional recipe embeddings into a 2D space using t-SNE, illustrating how the model clusters similar recipes.
 
@@ -399,10 +383,6 @@ display(Image(filename='RESULTS/figures/17_embedding_tsne.png', width=600))
 
 
     
-![png](17_transformer_based_recommender_files/17_transformer_based_recommender_24_0.png)
-    
-
-
 ## 7. App Integration Layer & Preference Re-Ranking
 
  teammates Streamlit app will directly import `models.transformer_recommender` and call `get_top_k_recommendations` to generate health-aware user recommendations.

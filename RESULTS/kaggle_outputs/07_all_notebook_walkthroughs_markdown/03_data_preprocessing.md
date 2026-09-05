@@ -488,10 +488,6 @@ plt.show()
 
 
     
-![png](03_data_preprocessing_files/03_data_preprocessing_16_1.png)
-    
-
-
 ## 9. Save Preprocessed Dataset
 
 We save the clean, filtered interaction dataset to the `dataset/archive_3/` directory.

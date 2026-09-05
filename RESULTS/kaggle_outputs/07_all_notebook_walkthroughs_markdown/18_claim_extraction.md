@@ -227,16 +227,6 @@ plt.show()
 
 
     
-![png](18_claim_extraction_files/18_claim_extraction_11_0.png)
-    
-
-
-
-    
-![png](18_claim_extraction_files/18_claim_extraction_11_1.png)
-    
-
-
 ## 6. Save Data
 
 

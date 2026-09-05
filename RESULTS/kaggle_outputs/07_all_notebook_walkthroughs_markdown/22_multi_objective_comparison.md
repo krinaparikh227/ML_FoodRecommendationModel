@@ -166,6 +166,3 @@ plt.show()
 
 
     
-![png](22_multi_objective_comparison_files/22_multi_objective_comparison_3_1.png)
-    
-

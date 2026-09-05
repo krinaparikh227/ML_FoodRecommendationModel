@@ -578,10 +578,6 @@ plt.show()
 
 
     
-![png](09_health_score_generation_files/09_health_score_generation_10_1.png)
-    
-
-
 ## 6. Outlier Capping
 
 Nutritional data can have extreme outliers (e.g., recipes with absurdly high calories). We cap at the 99th percentile to prevent outliers from dominating the normalization.
@@ -856,10 +852,6 @@ plt.show()
 
 
     
-![png](09_health_score_generation_files/09_health_score_generation_16_0.png)
-    
-
-
 ## 9. Feature Correlation Analysis
 
 
@@ -887,11 +879,7 @@ print(corr_matrix)
 
 
     
-![png](09_health_score_generation_files/09_health_score_generation_18_0.png)
-    
-
-
-    Correlation matrix:
+Correlation matrix:
                           Calories  Total Fat   Protein  Ingredient Diversity
     Calories              1.000000   0.875172  0.617067              0.136348
     Total Fat             0.875172   1.000000  0.549545              0.123901
@@ -1179,10 +1167,6 @@ plt.show()
 
 
     
-![png](09_health_score_generation_files/09_health_score_generation_22_0.png)
-    
-
-
 ## 12. Top and Bottom Recipes by Health Score
 
 
@@ -1577,11 +1561,7 @@ print(df.groupby('ingredient_bin', observed=False)['health_score'].agg(['mean', 
 
 
     
-![png](09_health_score_generation_files/09_health_score_generation_26_0.png)
-    
-
-
-    Mean Health Score by Ingredient Count:
+Mean Health Score by Ingredient Count:
                         mean    median  count
     ingredient_bin                           
     1-3             0.535305  0.548048   1878
@@ -1629,10 +1609,6 @@ plt.show()
 
 
     
-![png](09_health_score_generation_files/09_health_score_generation_28_0.png)
-    
-
-
 ## 15. Health Score Percentile Categorization
 
 
@@ -1688,10 +1664,6 @@ plt.show()
 
 
     
-![png](09_health_score_generation_files/09_health_score_generation_30_1.png)
-    
-
-
 ## 16. Component Contribution Analysis
 
 Visualize how each feature component contributes to the final Health Score.
@@ -1736,12 +1708,7 @@ for name, val in mean_contributions.items():
 
 
     
-![png](09_health_score_generation_files/09_health_score_generation_32_0.png)
-    
-
-
-    
-    Mean Component Contributions:
+Mean Component Contributions:
       Protein                  : 0.0557 (9.3%)
       Calories (inv.)          : 0.2611 (43.8%)
       Fat (inv.)               : 0.2206 (37.0%)

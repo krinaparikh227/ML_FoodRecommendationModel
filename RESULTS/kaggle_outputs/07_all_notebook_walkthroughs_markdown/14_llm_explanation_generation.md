@@ -223,16 +223,6 @@ plt.show()
 
 
     
-![png](14_llm_explanation_generation_files/14_llm_explanation_generation_11_0.png)
-    
-
-
-
-    
-![png](14_llm_explanation_generation_files/14_llm_explanation_generation_11_1.png)
-    
-
-
 ## 6. Save Logs
 
 

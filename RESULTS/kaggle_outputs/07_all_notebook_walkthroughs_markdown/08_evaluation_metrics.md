@@ -571,6 +571,3 @@ plt.show()
 
 
     
-![png](08_evaluation_metrics_files/08_evaluation_metrics_28_1.png)
-    
-

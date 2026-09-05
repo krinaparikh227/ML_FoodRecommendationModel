@@ -381,10 +381,6 @@ plt.show()
 
 
     
-![png](06_CONTENT_BASED_RECOMMENDER_files/06_CONTENT_BASED_RECOMMENDER_18_2.png)
-    
-
-
 ## 10. Sample Recommendation Walkthroughs
 
 We extract and display recommendation examples for three distinct users to audit the qualitative performance of our SentenceTransformer recommender system.

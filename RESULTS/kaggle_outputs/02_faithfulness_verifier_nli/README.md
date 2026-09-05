@@ -29,5 +29,4 @@ Comparison of raw ungrounded LLM generation vs. RAG-grounded retrieval:
 - **Verified Claims Parquet:** [`data/nli_verified_claims_dataset.parquet`](data/nli_verified_claims_dataset.parquet) (Git LFS)
 - **Extracted Claims Parquet:** [`data/extracted_claims.parquet`](data/extracted_claims.parquet) (Git LFS)
 - **Knowledge Base Parquet:** [`data/food_knowledge_base.parquet`](data/food_knowledge_base.parquet) (Git LFS)
-- **Kaggle Execution Log:** [`logs/nli_verifier_kaggle_execution_log.txt`](logs/nli_verifier_kaggle_execution_log.txt)
 - **Markdown Walkthrough:** [`walkthrough/19_faithfulness_verification_walkthrough.md`](walkthrough/19_faithfulness_verification_walkthrough.md)

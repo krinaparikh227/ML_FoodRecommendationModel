@@ -33,5 +33,4 @@ Top-5 item sequence predictions for held-out evaluation user sessions:
 - **Training Epochs:** 5 Complete Epochs
 - **Loss Progression:** 10.2066 -> 8.2410
 - **Trained Neural Weights:** [`models/gru4rec_trained_neural_weights.pt`](models/gru4rec_trained_neural_weights.pt) (25.4 MB, tracked via Git LFS)
-- **Kaggle Execution Log:** [`logs/gru4rec_kaggle_execution_log.txt`](logs/gru4rec_kaggle_execution_log.txt)
 - **Markdown Walkthrough:** [`walkthrough/16_sequential_recommender_gru_walkthrough.md`](walkthrough/16_sequential_recommender_gru_walkthrough.md)

@@ -1,8 +1,8 @@
 {
-  "manifest_title": "GroundedNutriRec Conference Empirical Artifact Suite (Markdown Native)",
-  "generated_at_utc": "2026-09-05T18:08:07.637113+00:00",
+  "manifest_title": "GroundedNutriRec Conference Empirical Artifact Suite (Clean Release)",
+  "generated_at_utc": "2026-09-05T18:10:51.044278+00:00",
   "target_git_branch": "Kaggle-Outputs",
-  "total_verified_artifacts": 97,
+  "total_verified_artifacts": 61,
   "artifacts": [
     {
       "file_name": "gru4rec_training_loss_and_convergence_500dpi.png",
@@ -11,14 +11,6 @@
       "size_kb": 463.07,
       "semantic_category": "publication_figure_500dpi",
       "sha256": "c461a5e9e2ae22e1c8549e49a8208ff8b28fd2eaf0d0e3af52146409a13843d0"
-    },
-    {
-      "file_name": "gru4rec_kaggle_execution_log.txt",
-      "relative_path": "RESULTS/kaggle_outputs/01_sequential_recommender_gru4rec/logs/gru4rec_kaggle_execution_log.txt",
-      "size_bytes": 73617,
-      "size_kb": 71.89,
-      "semantic_category": "execution_log",
-      "sha256": "3cb846d10cc3f5b3a882592872b301f021e7f913a54b1d784817bdea28fc7f6e"
     },
     {
       "file_name": "gru4rec_trained_neural_weights.pt",
@@ -31,10 +23,10 @@
     {
       "file_name": "README.md",
       "relative_path": "RESULTS/kaggle_outputs/01_sequential_recommender_gru4rec/README.md",
-      "size_bytes": 2077,
-      "size_kb": 2.03,
+      "size_bytes": 1967,
+      "size_kb": 1.92,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "33be178e9e878b56c0f1db612131d35e72460ce41d161c71526f8b12950afae6"
+      "sha256": "db1ca102edf11c3dc52e06770d98fd1f5ab4634fee98d74bc5b6c4818d67d6b8"
     },
     {
       "file_name": "gru4rec_ranking_performance_metrics.csv",
@@ -101,20 +93,12 @@
       "sha256": "3d3cb416a023a13923d5a42f5826a77d86937122b40509de676b9add34575940"
     },
     {
-      "file_name": "nli_verifier_kaggle_execution_log.txt",
-      "relative_path": "RESULTS/kaggle_outputs/02_faithfulness_verifier_nli/logs/nli_verifier_kaggle_execution_log.txt",
-      "size_bytes": 5123,
-      "size_kb": 5.0,
-      "semantic_category": "execution_log",
-      "sha256": "70af71547a753fd478647a5ea6ffb9b03bd01ef476615d29f4e7a1cab976157f"
-    },
-    {
       "file_name": "README.md",
       "relative_path": "RESULTS/kaggle_outputs/02_faithfulness_verifier_nli/README.md",
-      "size_bytes": 2050,
-      "size_kb": 2.0,
+      "size_bytes": 1930,
+      "size_kb": 1.88,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "b5616d2e357f838ca3ad80866b095e4cdd8c1345dce94a31938d079e2928a047"
+      "sha256": "817927b1e3c9f36fc70dcc91462d98d378255b414d4183609d49d8ca5ac5b714"
     },
     {
       "file_name": "nli_claim_verification_summary.csv",
@@ -207,10 +191,10 @@
     {
       "file_name": "09_health_score_generation_walkthrough.md",
       "relative_path": "RESULTS/kaggle_outputs/04_nutritional_health_calibration/walkthrough/09_health_score_generation_walkthrough.md",
-      "size_bytes": 50816,
-      "size_kb": 49.62,
+      "size_bytes": 50094,
+      "size_kb": 48.92,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "7891dcc47e9d61b40a761919864ffee43d4b7818efc9dcfb64e9a7d8c86430ab"
+      "sha256": "35b9987ed1b6e6527ebca05d986eba15ea6900f9f0c22bd328ca85208c615cdb"
     },
     {
       "file_name": "ab_testing_30day_user_cohort_retention_curves_500dpi.png",
@@ -319,154 +303,42 @@
     {
       "file_name": "02_food_dataset_eda.md",
       "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/02_food_dataset_eda.md",
-      "size_bytes": 12779,
-      "size_kb": 12.48,
+      "size_bytes": 12476,
+      "size_kb": 12.18,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "29939f01d5f4c5b1bc2981be487520514d2fbe51a8d73b779f48043a61efeeb1"
-    },
-    {
-      "file_name": "02_food_dataset_eda_14_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/02_food_dataset_eda_files/02_food_dataset_eda_14_1.png",
-      "size_bytes": 20613,
-      "size_kb": 20.13,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "0db1f69546bcca1b8fd243819cd2d464f1e359ff5e3e3de4415964115cf6341f"
-    },
-    {
-      "file_name": "02_food_dataset_eda_6_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/02_food_dataset_eda_files/02_food_dataset_eda_6_1.png",
-      "size_bytes": 14973,
-      "size_kb": 14.62,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "86b5a33f3d8e9c0245d232eae6d47f32071c804cc1678d1968a9d51e3a665f08"
-    },
-    {
-      "file_name": "02_food_dataset_eda_6_2.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/02_food_dataset_eda_files/02_food_dataset_eda_6_2.png",
-      "size_bytes": 22301,
-      "size_kb": 21.78,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "c8fa4cbaf956aac363433ae0260605d06b2735ccb2b59ae29cb7c281e9c49fb7"
-    },
-    {
-      "file_name": "02_food_dataset_eda_9_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/02_food_dataset_eda_files/02_food_dataset_eda_9_1.png",
-      "size_bytes": 52923,
-      "size_kb": 51.68,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "3fc5f5d5acc844389592869f272cede7929323abae92b69a66252ac771af1827"
+      "sha256": "0e6ed54ac658283e1215db2a810a52f4c55ea749678525875d3d9847e533bdee"
     },
     {
       "file_name": "03_data_preprocessing.md",
       "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/03_data_preprocessing.md",
-      "size_bytes": 13200,
-      "size_kb": 12.89,
+      "size_bytes": 13122,
+      "size_kb": 12.81,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "0109506db7d5f7ccd280799fa8f18e937de09eba89893654842a597216432531"
-    },
-    {
-      "file_name": "03_data_preprocessing_16_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/03_data_preprocessing_files/03_data_preprocessing_16_1.png",
-      "size_bytes": 44389,
-      "size_kb": 43.35,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "9133f4d59193b5569a4938aa9af5b4a3afde77523305bd6c2b471a2d94f42ce4"
+      "sha256": "f7a1c428e2e4d715cf800b50cdde250a6c5fbc33f94eb417643d1e65d746468c"
     },
     {
       "file_name": "04_feature_engineering.md",
       "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering.md",
-      "size_bytes": 15057,
-      "size_kb": 14.7,
+      "size_bytes": 14565,
+      "size_kb": 14.22,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "c5f256928bf8b3b808c991f20cdced979f600db460952137bad6903e9146d721"
-    },
-    {
-      "file_name": "04_feature_engineering_14_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering_files/04_feature_engineering_14_1.png",
-      "size_bytes": 14435,
-      "size_kb": 14.1,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "9fab22b938d6015930e4c7850820d02cf5a1bd54475b3cf3c3344a721b423b08"
-    },
-    {
-      "file_name": "04_feature_engineering_15_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering_files/04_feature_engineering_15_1.png",
-      "size_bytes": 14867,
-      "size_kb": 14.52,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "00f5da2d0d1a0bfe87c414c1da347ce49b30e7f246268e783044accea7be0420"
-    },
-    {
-      "file_name": "04_feature_engineering_16_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering_files/04_feature_engineering_16_1.png",
-      "size_bytes": 17656,
-      "size_kb": 17.24,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "757d14878328332a835e7fc56e69c8348539cdde1b5ffa71663468266e5911f8"
-    },
-    {
-      "file_name": "04_feature_engineering_17_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering_files/04_feature_engineering_17_0.png",
-      "size_bytes": 35332,
-      "size_kb": 34.5,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "bcb8c00e453a49285b2b23a6561c81f07a4fd1fb821dcdde08fcef00923e27a8"
-    },
-    {
-      "file_name": "04_feature_engineering_18_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering_files/04_feature_engineering_18_0.png",
-      "size_bytes": 32710,
-      "size_kb": 31.94,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "bae154492af1678d2ab4f35473a08f8177edb71cf8e327ae32189f25316f2174"
-    },
-    {
-      "file_name": "04_feature_engineering_19_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/04_feature_engineering_files/04_feature_engineering_19_1.png",
-      "size_bytes": 19929,
-      "size_kb": 19.46,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "000c69adf2c3f7a2c558c3f6382b5383fd29dabf15e258e5d11094002f608a4d"
+      "sha256": "689106aae778248d335a7fb71acc0759de50b70a39b81c3e76d295aeaf7453d4"
     },
     {
       "file_name": "05_popularity_recommender.md",
       "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/05_popularity_recommender.md",
-      "size_bytes": 8980,
-      "size_kb": 8.77,
+      "size_bytes": 8810,
+      "size_kb": 8.6,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "101a6e50478aa22c3bc6f59a786da1ef946793ac89bc09e320c36a2632eda479"
-    },
-    {
-      "file_name": "05_popularity_recommender_6_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/05_popularity_recommender_files/05_popularity_recommender_6_1.png",
-      "size_bytes": 45239,
-      "size_kb": 44.18,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "766033f1f84c533a3704cf9e76fd7c2211e75f7425cff85265d6baf5b8e566dd"
-    },
-    {
-      "file_name": "05_popularity_recommender_9_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/05_popularity_recommender_files/05_popularity_recommender_9_1.png",
-      "size_bytes": 39694,
-      "size_kb": 38.76,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "ce2a10298a64a01fe43010b8d995c6417e88c4482f5ad917639a7b5642023d88"
+      "sha256": "69a883f1ba9c172a1888d652ff7133b77efb0e2e25b8219f909044305c618b6b"
     },
     {
       "file_name": "06_CONTENT_BASED_RECOMMENDER.md",
       "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/06_CONTENT_BASED_RECOMMENDER.md",
-      "size_bytes": 22313,
-      "size_kb": 21.79,
+      "size_bytes": 22221,
+      "size_kb": 21.7,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "61c3ab674cb2d8cc714168cea84c9ce2085b437989f7f869bdb9112d330d2b20"
-    },
-    {
-      "file_name": "06_CONTENT_BASED_RECOMMENDER_18_2.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/06_CONTENT_BASED_RECOMMENDER_files/06_CONTENT_BASED_RECOMMENDER_18_2.png",
-      "size_bytes": 104517,
-      "size_kb": 102.07,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "50d05c04935347c3ecb32dffb71bf78f8c8651dd5e63c3b6c9e54a2349083814"
+      "sha256": "b186db019df72fd47ced7b2b2c174aabc8208bff8f7a847d4f86fb6e3ffd7b89"
     },
     {
       "file_name": "07_collaborative_filtering.md",
@@ -479,90 +351,18 @@
     {
       "file_name": "08_evaluation_metrics.md",
       "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/08_evaluation_metrics.md",
-      "size_bytes": 22187,
-      "size_kb": 21.67,
+      "size_bytes": 22111,
+      "size_kb": 21.59,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "7d3ab7527727e3ad8544e4c19a326311cf70c56ff3cc626a3dfd712c94490a25"
-    },
-    {
-      "file_name": "08_evaluation_metrics_28_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/08_evaluation_metrics_files/08_evaluation_metrics_28_1.png",
-      "size_bytes": 43491,
-      "size_kb": 42.47,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "f8d7f9f86c7c77ba34d4d091c809e1602bd2ecb624b7909b3e2eca8cf18c5e37"
+      "sha256": "790d978abec248f2f97e0ea20caf1e237ec8f8898735b7a474e88b2e1f5b770c"
     },
     {
       "file_name": "09_health_score_generation.md",
       "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation.md",
-      "size_bytes": 50816,
-      "size_kb": 49.62,
+      "size_bytes": 50094,
+      "size_kb": 48.92,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "7891dcc47e9d61b40a761919864ffee43d4b7818efc9dcfb64e9a7d8c86430ab"
-    },
-    {
-      "file_name": "09_health_score_generation_10_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_10_1.png",
-      "size_bytes": 81974,
-      "size_kb": 80.05,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "c219cb228de5945fa3d07946c6bbe25be21a7f8500fe854f7661bd5a3821b3b0"
-    },
-    {
-      "file_name": "09_health_score_generation_16_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_16_0.png",
-      "size_bytes": 75958,
-      "size_kb": 74.18,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "124d10a5a169ad093d489de8d9e7297eab15c0d3f7b99cc9be33f54d99e903da"
-    },
-    {
-      "file_name": "09_health_score_generation_18_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_18_0.png",
-      "size_bytes": 44166,
-      "size_kb": 43.13,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "74b7a825c44c7ee5df5a1bca0309d6678c335d13e8891631782b9db3f3b6b2f9"
-    },
-    {
-      "file_name": "09_health_score_generation_22_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_22_0.png",
-      "size_bytes": 44387,
-      "size_kb": 43.35,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "889ecf7b0bff466c46b13fe5efc377787106610b8addd3c67f16120ad5e57a0d"
-    },
-    {
-      "file_name": "09_health_score_generation_26_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_26_0.png",
-      "size_bytes": 41655,
-      "size_kb": 40.68,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "df275d929566471d0fb5ea23480300e0e0fb0c9af9538be1cfd8e8075fcd1169"
-    },
-    {
-      "file_name": "09_health_score_generation_28_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_28_0.png",
-      "size_bytes": 308267,
-      "size_kb": 301.04,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "2868e1ace2dacd84a6bed9f0cf254a64e6856927b0797985ff954470df10f291"
-    },
-    {
-      "file_name": "09_health_score_generation_30_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_30_1.png",
-      "size_bytes": 49809,
-      "size_kb": 48.64,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "06a2bb22e9840e64f80f57ae7bc78f44ccead1cb190c77533ab47a8d0ac4c6bd"
-    },
-    {
-      "file_name": "09_health_score_generation_32_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/09_health_score_generation_files/09_health_score_generation_32_0.png",
-      "size_bytes": 29437,
-      "size_kb": 28.75,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "38033614216830b13b775256a5f37f1c66fd155d3148a41ad41ce5860243a5bc"
+      "sha256": "35b9987ed1b6e6527ebca05d986eba15ea6900f9f0c22bd328ca85208c615cdb"
     },
     {
       "file_name": "10_multi_objective_ranking.md",
@@ -583,18 +383,10 @@
     {
       "file_name": "12_food_knowledge_base_creation.md",
       "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/12_food_knowledge_base_creation.md",
-      "size_bytes": 20730,
-      "size_kb": 20.24,
+      "size_bytes": 20632,
+      "size_kb": 20.15,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "d8556bbd0475c7660229bf7cbb3e7f801ed4fe4f44946a5a1e51adef29009edc"
-    },
-    {
-      "file_name": "12_food_knowledge_base_creation_18_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/12_food_knowledge_base_creation_files/12_food_knowledge_base_creation_18_0.png",
-      "size_bytes": 43911,
-      "size_kb": 42.88,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "ebae3019da734128a07da92e5fbec71786d877e5b64c2f63197f6e8514e378e1"
+      "sha256": "2b9c3e021787c620b2afbe19712fc01b3cc68032e5c66fa2b978ab0c1143f4d7"
     },
     {
       "file_name": "13_vector_search_rag.md",
@@ -607,26 +399,10 @@
     {
       "file_name": "14_llm_explanation_generation.md",
       "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/14_llm_explanation_generation.md",
-      "size_bytes": 7182,
-      "size_kb": 7.01,
+      "size_bytes": 6986,
+      "size_kb": 6.82,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "559c4ee2420b4f847b27352b4d4035d5f609e104f237851507b8f125af3c0526"
-    },
-    {
-      "file_name": "14_llm_explanation_generation_11_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/14_llm_explanation_generation_files/14_llm_explanation_generation_11_0.png",
-      "size_bytes": 31991,
-      "size_kb": 31.24,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "6d10933b74c9d9f5ebfa101dd7a7c5b7df31587a6fae5adf3a536f2db179c684"
-    },
-    {
-      "file_name": "14_llm_explanation_generation_11_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/14_llm_explanation_generation_files/14_llm_explanation_generation_11_1.png",
-      "size_bytes": 13700,
-      "size_kb": 13.38,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "1647c3a3d28790691bf7ab93396c71d5ed05a6796279221a5aab588952a4f71b"
+      "sha256": "a7d870b26965a7072b2dd08779b011dc824845893e0b7886a9264e3678daa6e0"
     },
     {
       "file_name": "15_faithfulness_check.md",
@@ -647,74 +423,18 @@
     {
       "file_name": "17_transformer_based_recommender.md",
       "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/17_transformer_based_recommender.md",
-      "size_bytes": 16262,
-      "size_kb": 15.88,
+      "size_bytes": 15762,
+      "size_kb": 15.39,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "dd90c3b9ede4462a6cb85161237dfac57c3b9118ed5edba401751b5d1e0a1af2"
-    },
-    {
-      "file_name": "17_transformer_based_recommender_16_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/17_transformer_based_recommender_files/17_transformer_based_recommender_16_0.png",
-      "size_bytes": 45531,
-      "size_kb": 44.46,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "ce26d92a01d81286d1f322f0e13c81ccc0d1b8198f184045ea06e18bfbd0c657"
-    },
-    {
-      "file_name": "17_transformer_based_recommender_18_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/17_transformer_based_recommender_files/17_transformer_based_recommender_18_0.png",
-      "size_bytes": 53009,
-      "size_kb": 51.77,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "756064e793f998f79a582a6ac88277f3f405d815298f1aa6316b1d0ecc597553"
-    },
-    {
-      "file_name": "17_transformer_based_recommender_20_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/17_transformer_based_recommender_files/17_transformer_based_recommender_20_0.png",
-      "size_bytes": 41541,
-      "size_kb": 40.57,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "94b10fab73b185283efb37a8b77ee1539b298a44bc96ff7327e988ebefbbeec0"
-    },
-    {
-      "file_name": "17_transformer_based_recommender_22_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/17_transformer_based_recommender_files/17_transformer_based_recommender_22_0.png",
-      "size_bytes": 66894,
-      "size_kb": 65.33,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "63248eb318508b929a1eb120a0d546b10d805bbe967d7d158122ab31f6fa3baf"
-    },
-    {
-      "file_name": "17_transformer_based_recommender_24_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/17_transformer_based_recommender_files/17_transformer_based_recommender_24_0.png",
-      "size_bytes": 444066,
-      "size_kb": 433.66,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "82633cb81a637ea6d9e27e2914e1a29cc05efd600d364f98a394adc7064d3519"
+      "sha256": "aad8bd1f970f1f490d99363c4f7e39726bbcb4d26866e08463ca2fe0f071cefa"
     },
     {
       "file_name": "18_claim_extraction.md",
       "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/18_claim_extraction.md",
-      "size_bytes": 6364,
-      "size_kb": 6.21,
+      "size_bytes": 6208,
+      "size_kb": 6.06,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "c4034de1b213d98bf9546cc705a78ef5e146e19494966da46a08308a48b7e136"
-    },
-    {
-      "file_name": "18_claim_extraction_11_0.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/18_claim_extraction_files/18_claim_extraction_11_0.png",
-      "size_bytes": 13837,
-      "size_kb": 13.51,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "a012e0e9f432c88ed1c9d73136dcb6b1b310e02170fe59cc9337a8352458919e"
-    },
-    {
-      "file_name": "18_claim_extraction_11_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/18_claim_extraction_files/18_claim_extraction_11_1.png",
-      "size_bytes": 20025,
-      "size_kb": 19.56,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "10494a9b79d43c3bb89218325fcc3f0fb2cfe50dbe8bb810ad013aeff753892e"
+      "sha256": "ee4b84d82cbaa220cba3edc83e78d98f44295ad0f5878d8a659598dea71dd192"
     },
     {
       "file_name": "19_faithfulness_verification.md",
@@ -743,18 +463,10 @@
     {
       "file_name": "22_multi_objective_comparison.md",
       "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/22_multi_objective_comparison.md",
-      "size_bytes": 4925,
-      "size_kb": 4.81,
+      "size_bytes": 4834,
+      "size_kb": 4.72,
       "semantic_category": "markdown_walkthrough_or_documentation",
-      "sha256": "153eb150af6128828993f45dd83e5ed6c00cd067db837bc080a2cc44ffee7526"
-    },
-    {
-      "file_name": "22_multi_objective_comparison_3_1.png",
-      "relative_path": "RESULTS/kaggle_outputs/07_all_notebook_walkthroughs_markdown/22_multi_objective_comparison_files/22_multi_objective_comparison_3_1.png",
-      "size_bytes": 35882,
-      "size_kb": 35.04,
-      "semantic_category": "publication_figure_500dpi",
-      "sha256": "373d9e3b749733edb64601d6e71a79f5a47adec8eef92f077d9d5c43d7e60258"
+      "sha256": "d274a307fefcf1fe8122aa8a9c7ee490b84ad63b8227756058045b87ae945a31"
     },
     {
       "file_name": "23_ab_testing_simulator.md",

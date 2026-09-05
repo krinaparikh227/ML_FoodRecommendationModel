@@ -82,17 +82,6 @@ plt.show()
 
 
     
-![png](02_food_dataset_eda_files/02_food_dataset_eda_6_1.png)
-    
-
-
-
-    
-![png](02_food_dataset_eda_files/02_food_dataset_eda_6_2.png)
-    
-
-
-
 ```python
 # 5. Top recipes
 # Based on review count and aggregated rating
@@ -288,11 +277,6 @@ plt.show()
 
 
     
-![png](02_food_dataset_eda_files/02_food_dataset_eda_9_1.png)
-    
-
-
-
 ```python
 # 8. Nutrition field availability
 nutrition_cols = ['Calories', 'FatContent', 'SaturatedFatContent', 'CholesterolContent', 
@@ -477,6 +461,3 @@ if 'source' in full_dataset.columns:
 
 
     
-![png](02_food_dataset_eda_files/02_food_dataset_eda_14_1.png)
-    
-
