@@ -1,6 +1,0 @@
-Claim Category,Total Extracted,Supported (Faithful),Unsupported (Hallucinated),Hallucination Rate,Post-Filter Reduction
-Nutritional Assertions,182,0,182,100.0%,87.9%
-Ingredient References,94,0,94,100.0%,88.3%
-Preparation Properties,68,0,68,100.0%,86.8%
-Medical/Dietary Claims,63,0,63,100.0%,88.9%
-Overall Composite,407,0,407,100.0%,87.9%
