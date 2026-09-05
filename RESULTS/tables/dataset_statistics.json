@@ -1,0 +1,16 @@
+{
+  "is_synthetic_data": false,
+  "data_source_mode": "existing_files",
+  "users": 15204,
+  "items": 34112,
+  "positive_interactions_all_splits": 450654,
+  "train_positive_interactions": 420246,
+  "validation_positive_interactions": 15204,
+  "test_positive_interactions": 15204,
+  "sparsity": 0.9991310832157332,
+  "median_train_interactions_per_user": 8.0,
+  "median_train_interactions_per_item": 7.0,
+  "recipes_with_valid_nutrition": 34112,
+  "recipes_with_ingredients": 34112,
+  "training_review_documents": 168705
+}

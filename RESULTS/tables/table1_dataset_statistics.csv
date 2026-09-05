@@ -1,0 +1,16 @@
+Metric,Value
+Raw Unique Recipes,"231,637"
+Raw Interactions,"1,132,367"
+Raw Unique Users,"226,570"
+Raw Matrix Sparsity,99.9978%
+Post 5-Core Retained Users,"15,204"
+Post 5-Core Retained Recipes,"34,112"
+Post 5-Core Positive Interactions,"450,654"
+Training Interactions (Positive),"420,246"
+Validation Interactions (Held-out),"15,204"
+Test Interactions (Held-out),"15,204"
+Post-Filter Matrix Sparsity,99.9131%
+Median Interactions / User (Train),8.0
+Median Interactions / Recipe (Train),7.0
+Recipes with Complete Nutrition,"34,112"
+Indexed Training Review Evidence Docs,"168,705"
