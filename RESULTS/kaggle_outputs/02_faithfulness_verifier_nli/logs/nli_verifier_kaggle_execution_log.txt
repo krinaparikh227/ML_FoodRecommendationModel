@@ -1,3 +1,46 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:70af71547a753fd478647a5ea6ffb9b03bd01ef476615d29f4e7a1cab976157f
-size 5123
+[{"stream_name":"stderr","time":10.907153684,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":10.907879924,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":10.907886757,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":10.907891452,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stderr","time":11.660843392,"data":"0.00s - Debugger warning: It seems that frozen modules are being used, which may\n"}
+,{"stream_name":"stderr","time":11.660873272,"data":"0.00s - make the debugger miss breakpoints. Please pass -Xfrozen_modules=off\n"}
+,{"stream_name":"stderr","time":11.660883245,"data":"0.00s - to python to disable frozen modules.\n"}
+,{"stream_name":"stderr","time":11.660886289,"data":"0.00s - Note: Debugging will proceed. Set PYDEVD_DISABLE_FILE_VALIDATION=1 to disable this validation.\n"}
+,{"stream_name":"stdout","time":56.048896792,"data":"Unpacked self-contained artifact: data/interim/extracted_claims.parquet (20097 bytes)\n"}
+,{"stream_name":"stdout","time":56.048957674,"data":"Unpacked self-contained artifact: data/interim/food_knowledge_base.parquet (165955 bytes)\n"}
+,{"stream_name":"stdout","time":56.048963849,"data":"Unpacked self-contained artifact: data/interim/explanation_logs.parquet (23240 bytes)\n"}
+,{"stream_name":"stdout","time":56.080165838,"data":"Using GPU device: Tesla T4 (sm_75)\n"}
+,{"stream_name":"stdout","time":56.281292313,"data":"Loading datasets...\n"}
+,{"stream_name":"stdout","time":56.583097447,"data":"Loaded 407 claims, 100 KB recipes, and 100 explanation logs.\n"}
+,{"stream_name":"stdout","time":56.583147789,"data":"Loading model and tokenizer on CPU...\n"}
+,{"stream_name":"stderr","time":56.618676173,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":56.618701199,"data":"\n"}
+,{"stream_name":"stderr","time":56.618707458,"data":"Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.\n"}
+,{"stream_name":"stderr","time":58.824252566,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stderr","time":58.824282946,"data":"\n"}
+,{"stream_name":"stderr","time":58.82428855,"data":"`torch_dtype` is deprecated! Use `dtype` instead!\n"}
+,{"stream_name":"stdout","time":66.412079945,"data":"LLM successfully loaded.\n"}
+,{"stream_name":"stdout","time":66.608914748,"data":"Starting batched verification for 407 claims...\n"}
+,{"stream_name":"stdout","time":66.608987249,"data":"Verified 80/407 claims | Elapsed: 0.07s\n"}
+,{"stream_name":"stdout","time":66.725573685,"data":"Verified 160/407 claims | Elapsed: 0.13s\n"}
+,{"stream_name":"stdout","time":66.725630877,"data":"Verified 240/407 claims | Elapsed: 0.19s\n"}
+,{"stream_name":"stdout","time":66.848459682,"data":"Verified 320/407 claims | Elapsed: 0.26s\n"}
+,{"stream_name":"stdout","time":66.848494564,"data":"Verified 400/407 claims | Elapsed: 0.32s\n"}
+,{"stream_name":"stdout","time":66.848501267,"data":"Verified 407/407 claims | Elapsed: 0.33s\n"}
+,{"stream_name":"stdout","time":66.848506425,"data":"Finished verifying all claims in 0.33 seconds.\n"}
+,{"stream_name":"stdout","time":66.905828703,"data":"Saving verified claims to verified_claims.parquet...\n"}
+,{"stream_name":"stdout","time":66.905858823,"data":"Saved successfully!\n"}
+,{"stream_name":"stdout","time":66.905864642,"data":"\n"}
+,{"stream_name":"stdout","time":66.905881963,"data":"=== Verification Summary ===\n"}
+,{"stream_name":"stdout","time":66.90588634,"data":"verdict\n"}
+,{"stream_name":"stdout","time":66.905890128,"data":"Unsupported    407\n"}
+,{"stream_name":"stdout","time":66.905895519,"data":"Name: count, dtype: int64\n"}
+,{"stream_name":"stderr","time":72.603782991,"data":"/usr/local/lib/python3.12/dist-packages/mistune.py:435: SyntaxWarning: invalid escape sequence '\\|'\n"}
+,{"stream_name":"stderr","time":72.603829651,"data":"  cells[i][c] = re.sub('\\\\\\\\\\|', '|', cell)\n"}
+,{"stream_name":"stderr","time":72.794310849,"data":"/usr/local/lib/python3.12/dist-packages/nbconvert/filters/filter_links.py:36: SyntaxWarning: invalid escape sequence '\\_'\n"}
+,{"stream_name":"stderr","time":72.794338069,"data":"  text = re.sub(r'_', '\\_', text) # Escape underscores in display text\n"}
+,{"stream_name":"stderr","time":73.451646845,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to notebook\n"}
+,{"stream_name":"stderr","time":73.778907828,"data":"[NbConvertApp] Writing 387709 bytes to __notebook__.ipynb\n"}
+,{"stream_name":"stderr","time":76.102763174,"data":"[NbConvertApp] Converting notebook __notebook__.ipynb to html\n"}
+,{"stream_name":"stderr","time":76.951275598,"data":"[NbConvertApp] Writing 663401 bytes to __results__.html\n"}
+]

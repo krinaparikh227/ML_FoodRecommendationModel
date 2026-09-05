@@ -1,3 +1,4 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:9a4e9f5827f413b4c3372cad3de5959135045bd2db465fc3b6bc90ae676c5c45
-size 199
+Arm,CTR Proxy,Health Score
+Arm A,"0.1881 [0.1820,0.1942]","0.6272 [0.6210,0.6334]"
+Arm B,"0.1755 [0.1701,0.1809]","0.5661 [0.5601,0.5721]"
+Arm C,"0.1838 [0.1782,0.1894]","0.7217 [0.7152,0.7282]"

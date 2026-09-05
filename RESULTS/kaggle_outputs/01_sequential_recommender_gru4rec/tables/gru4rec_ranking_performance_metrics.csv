@@ -1,3 +1,7 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:44cbc18c63097dd10b8eff4fb54b3a391db8f2a88906a3d6126c1bfccec83e9b
-size 470
+Model,P@5,R@5,NDCG@5,P@10,R@10,NDCG@10,HR@10,MRR
+Random Baseline,0.01,0.008,0.011,0.01,0.01,0.012,0.021,0.011
+Popularity Recommender,0.061,0.026,0.044,0.048,0.038,0.052,0.091,0.039
+Item-Based CF,0.104,0.058,0.082,0.082,0.076,0.094,0.158,0.071
+Matrix Factorization (SVD),0.118,0.067,0.095,0.094,0.089,0.108,0.179,0.084
+Content-Based (MiniLM),0.098,0.051,0.076,0.078,0.071,0.088,0.146,0.068
+Sequential GRU4Rec (Ours),0.162,0.098,0.131,0.126,0.121,0.144,0.231,0.118

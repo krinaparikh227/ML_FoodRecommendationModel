@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:1fbc0d77b9e2e79802a274f0afde58db441d33f3d0a25274bcce123119f59639
-size 293
+Nutrient,Raw Mean,Raw Median,Raw Skew,MinMax Mean,eCDF Calibrated Mean
+Calories (kcal),448.2,382.0,+3.41,0.042,0.501
+Saturated Fat (g),8.7,5.0,+4.18,0.038,0.498
+Sodium (mg),684.5,490.0,+5.29,0.029,0.502
+Sugar (g),14.2,7.0,+3.82,0.041,0.499
+Composite Health Score,N/A,N/A,+3.89,0.124,0.5
